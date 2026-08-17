@@ -48,6 +48,11 @@ def payload_files(root: Path = RELEASE_ROOT) -> list[Path]:
         relative = path.relative_to(root)
         if any(part in EXCLUDED_PARTS for part in relative.parts):
             continue
+        if any(
+            part == ".eggs" or part.endswith(".egg-info")
+            for part in relative.parts
+        ):
+            continue
         if path.is_symlink():
             raise ValueError(f"Symlink is not permitted in release: {relative}")
         if not path.is_file():

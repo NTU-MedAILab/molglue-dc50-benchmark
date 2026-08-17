@@ -1,0 +1,111 @@
+{
+  "qa_identity": "post_hoc_internal_learning_curve_v1_independent_qa",
+  "status": "PASS",
+  "run_directory": "reports/post_hoc_internal_learning_curve_v1",
+  "formal": true,
+  "checks_passed": 20,
+  "checks_total": 20,
+  "checks": [
+    {
+      "check_id": "manifest_complete",
+      "status": "PASS",
+      "detail": "complete"
+    },
+    {
+      "check_id": "analysis_identity",
+      "status": "PASS",
+      "detail": "post_hoc_internal_learning_curve_v1; post_hoc_sensitivity"
+    },
+    {
+      "check_id": "data_hash",
+      "status": "PASS",
+      "detail": "e9494246bcbd198bc09d5b0d09721910c33f70f46ae859b76377a13775e3e4b2"
+    },
+    {
+      "check_id": "protocol_and_script_hashes",
+      "status": "PASS",
+      "detail": "current protocol and runner match manifest"
+    },
+    {
+      "check_id": "frozen_fractions_and_models",
+      "status": "PASS",
+      "detail": "fractions=[0.25, 0.5, 0.75, 1.0]; models=['chemistry_extra_trees', 'full_context_extra_trees']"
+    },
+    {
+      "check_id": "fixed_model_configuration",
+      "status": "PASS",
+      "detail": "{\"bootstrap\": false, \"max_depth\": null, \"max_features\": \"sqrt\", \"min_samples_leaf\": 1, \"n_estimators\": 600, \"param_id\": \"leaf_1_maxfeat_sqrt_fixed\"}"
+    },
+    {
+      "check_id": "gpu_not_required",
+      "status": "PASS",
+      "detail": "False"
+    },
+    {
+      "check_id": "deterministic_selection_identity",
+      "status": "PASS",
+      "detail": "recomputed"
+    },
+    {
+      "check_id": "nested_training_scaffolds",
+      "status": "PASS",
+      "detail": "recomputed"
+    },
+    {
+      "check_id": "no_train_test_scaffold_leakage",
+      "status": "PASS",
+      "detail": "recomputed"
+    },
+    {
+      "check_id": "training_and_test_counts",
+      "status": "PASS",
+      "detail": "recomputed"
+    },
+    {
+      "check_id": "prediction_row_count",
+      "status": "PASS",
+      "detail": "observed=62400; expected=62400"
+    },
+    {
+      "check_id": "prediction_keys_unique",
+      "status": "PASS",
+      "detail": "duplicates=0"
+    },
+    {
+      "check_id": "prediction_truth_identity",
+      "status": "PASS",
+      "detail": "matched frozen endpoint"
+    },
+    {
+      "check_id": "repeat_averaged_coverage",
+      "status": "PASS",
+      "detail": "rows=12480"
+    },
+    {
+      "check_id": "metric_point_estimates",
+      "status": "PASS",
+      "detail": "independently recomputed"
+    },
+    {
+      "check_id": "paired_contrast_point_estimates",
+      "status": "PASS",
+      "detail": "recomputed"
+    },
+    {
+      "check_id": "bootstrap_interval_contract",
+      "status": "PASS",
+      "detail": "formal or smoke contract"
+    },
+    {
+      "check_id": "artifact_hash_inventory",
+      "status": "PASS",
+      "detail": "files=10"
+    },
+    {
+      "check_id": "manifest_counts",
+      "status": "PASS",
+      "detail": "fits=200; prediction_rows=62400"
+    }
+  ],
+  "gpu_required": false
+}

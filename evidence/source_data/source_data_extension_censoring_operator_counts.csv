@@ -1,0 +1,8 @@
+analysis_identity,relation_operator,relation_class,n_records,fraction_all_records
+post_hoc_extension_float32_v4,=,equality,1825,0.5854988771254411
+post_hoc_extension_float32_v4,MISSING,missing_or_unparsed,26,0.0083413538658966
+post_hoc_extension_float32_v4,<,one_sided,112,0.0359319858838626
+post_hoc_extension_float32_v4,<=,one_sided,156,0.0500481231953801
+post_hoc_extension_float32_v4,>,one_sided,361,0.1158164902149502
+post_hoc_extension_float32_v4,>=,one_sided,102,0.0327237728585178
+post_hoc_extension_float32_v4,range,range,535,0.1716393968559512

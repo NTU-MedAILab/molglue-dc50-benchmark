@@ -1,0 +1,7 @@
+analysis_identity,record_type,model_id,contrast_id,metric,observed,bootstrap_mean,ci_low,ci_high,n_valid,n_bootstrap,cluster_unit,n_clusters,positive_direction
+post_hoc_extension_float32_v4,model,chemistry_extra_trees,,spearman,0.4931381425854008,0.4916438281387002,0.3841530402077027,0.5958778068575405,10000,10000,generic_murcko_scaffold,376,higher is better
+post_hoc_extension_float32_v4,model,chemistry_extra_trees,,rmse,0.8686921278905142,0.868149629502583,0.7940377295476081,0.9428289065630886,10000,10000,generic_murcko_scaffold,376,lower is better
+post_hoc_extension_float32_v4,model,full_context_extra_trees,,spearman,0.5302915859357085,0.5285619348782709,0.4253923693773828,0.6247570545536101,10000,10000,generic_murcko_scaffold,376,higher is better
+post_hoc_extension_float32_v4,model,full_context_extra_trees,,rmse,0.8415487364439371,0.8411069348225033,0.7687428554672557,0.9145021176239952,10000,10000,generic_murcko_scaffold,376,lower is better
+post_hoc_extension_float32_v4,contrast,,full_vs_chemistry,delta_spearman,0.0371534433503076,0.0369181067395707,0.0104406842226949,0.0660740988158125,10000,10000,generic_murcko_scaffold,376,positive favors full-context
+post_hoc_extension_float32_v4,contrast,,full_vs_chemistry,delta_rmse,0.027143391446577,0.0270426946800796,0.0143121072408312,0.041140046211365,10000,10000,generic_murcko_scaffold,376,positive favors full-context

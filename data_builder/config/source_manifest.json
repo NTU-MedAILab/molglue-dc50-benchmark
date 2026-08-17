@@ -1,0 +1,63 @@
+{
+  "manifest_version": "1.0",
+  "snapshot_policy": "Exact reconstruction requires every required SHA-256 to match. Changed official files are treated as a new temporal-validation snapshot.",
+  "sources": [
+    {
+      "database": "MGTbind",
+      "landing_page": "https://mgtbind.pkumdl.cn/download",
+      "citation": "Zhu J et al. MGTbind: a comprehensive database of molecular glue ternary interactome. Nucleic Acids Research 54, D1500-D1509 (2026). https://doi.org/10.1093/nar/gkaf1075",
+      "licence_status": "No separate database-content redistribution licence identified as of 2026-08-16.",
+      "files": [
+        {"key": "mgtbind_compounds", "filename": "mgtbind_compounds_260531.csv", "method": "GET", "url": "https://mgtbind.pkumdl.cn/static/download/compounds.csv", "sha256": "db854e2e695179003e280d171b44eb7b6ca96769ab1617604c3e50303c68a456", "size_bytes": 2503363, "required": true},
+        {"key": "mgtbind_complexes", "filename": "mgtbind_complexes_260531.csv", "method": "GET", "url": "https://mgtbind.pkumdl.cn/static/download/complexes.csv", "sha256": "43b23742f56a6dadd9b053911485e0dc49737ff05b6096350958cc02cd84e9ed", "size_bytes": 5674581, "required": true},
+        {"key": "mgtbind_citations", "filename": "mgtbind_citations_260531.csv", "method": "GET", "url": "https://mgtbind.pkumdl.cn/static/download/citations.csv", "sha256": "c9495b1c1ab78a01efccfb16baf0e3c16e61182b999045b3e4d4b880a6f3fcb5", "size_bytes": 106142, "required": true}
+      ]
+    },
+    {
+      "database": "MGDB",
+      "landing_page": "http://mgdb.idruglab.cn/download",
+      "citation": "Li C et al. MGDB: a curated database for molecular glues. Nucleic Acids Research 54, D1488-D1499 (2026). https://doi.org/10.1093/nar/gkaf1131",
+      "licence_status": "Site states All Rights Reserved; no separate database-content redistribution licence identified as of 2026-08-16.",
+      "files": [
+        {"key": "mgdb_compounds", "filename": "mgdb_MG_Compound_260531.csv", "method": "POST_JSON", "url": "http://mgdb.idruglab.cn/download", "json_body": {"fileName": "MG Compound"}, "sha256": "c55ea2e9e41c9bf245ffcbb32952d00aa762d187409428b12d7816234df8cabe", "size_bytes": 27428222, "required": true},
+        {"key": "mgdb_activity", "filename": "mgdb_Activity_Data_260531.csv", "method": "POST_JSON", "url": "http://mgdb.idruglab.cn/download", "json_body": {"fileName": "Activity Data"}, "sha256": "ca4050151504afec592de711062da86b394ab587acd608b941b55d29771e8429", "size_bytes": 14220239, "required": true},
+        {"key": "mgdb_article_reference", "filename": "mgdb_Article_Reference_260531.csv", "method": "POST_JSON", "url": "http://mgdb.idruglab.cn/download", "json_body": {"fileName": "Article Reference"}, "sha256": "b063375c1747b3d9009a9949279732109da1ed5b941b2a31bf47082ad23ee3a5", "size_bytes": 69155, "required": false},
+        {"key": "mgdb_patent_reference", "filename": "mgdb_Patent_Reference_260531.csv", "method": "POST_JSON", "url": "http://mgdb.idruglab.cn/download", "json_body": {"fileName": "Patent Reference"}, "sha256": "18f5338adb5e1b1f80fcf9799ecea80f1c892699c4d93b2d85a3f490b8da9e4d", "size_bytes": 32169, "required": false}
+      ]
+    },
+    {
+      "database": "MolGlueDB",
+      "landing_page": "https://www.molgluedb.com/download",
+      "citation": "Wang X et al. MolGlueDB: an online database of molecular glues. Nucleic Acids Research 54, D1510-D1518 (2026). https://doi.org/10.1093/nar/gkaf811",
+      "licence_status": "Site states All rights reserved; no separate database-content redistribution licence identified as of 2026-08-16.",
+      "files": [
+        {
+          "key": "molgluedb_archive",
+          "filename": "molgluedb_full_260531.tar.gz",
+          "method": "GET",
+          "url": "https://www.molgluedb.com/api/export_bj_data",
+          "headers": {"Referer": "https://www.molgluedb.com/download", "X-Requested-With": "XMLHttpRequest", "Accept": "application/octet-stream,application/zip,*/*"},
+          "sha256": "8ec9b2d51cdaff471e183073731e3e3464684494adba025738b7843ac6b84f15",
+          "size_bytes": 281182,
+          "required": true,
+          "archive_member": "MolGlueDB_full.csv",
+          "extracted_filename": "MolGlueDB_full.csv",
+          "extracted_sha256": "cf1d0d61b889539d56b250f5adeb7652ef1a25ebe5008110db86bd28328a1d48",
+          "extracted_size_bytes": 1249154
+        }
+      ]
+    },
+    {
+      "database": "TPDdb",
+      "landing_page": "https://tpddb.idrblab.net/download",
+      "citation": "Qin X et al. TPDdb: the comprehensive database of targeted protein degrader. Nucleic Acids Research 54, D1683-D1691 (2026). https://doi.org/10.1093/nar/gkaf996",
+      "licence_status": "No separate database-content redistribution licence identified as of 2026-08-16.",
+      "files": [
+        {"key": "tpddb_main", "filename": "tpddb_MG_main_table_260531.txt", "method": "GET", "url": "https://tpddb.idrblab.net/sites/files/tpd_download/MG_main_table.txt", "sha256": "8a6d0884d4c936c93e7904f723cb25aca252665dee7a4cc7aa46105f8b7216a3", "size_bytes": 1724726, "required": true},
+        {"key": "tpddb_activity", "filename": "tpddb_MG_activity_260531.txt", "method": "GET", "url": "https://tpddb.idrblab.net/sites/files/tpd_download/MG_activity.txt", "sha256": "fe83868e3a4180acab2441f6c42006fdcf30e9da229a211ff6a313c992d9c40b", "size_bytes": 120260, "required": true},
+        {"key": "tpddb_pdb", "filename": "tpddb_TPD_PDB_260531.txt", "method": "GET", "url": "https://tpddb.idrblab.net/sites/files/tpd_download/TPD_PDB.txt", "sha256": "e33e975da7aa67d3683f7d866d23fd1188ce8a36fca90615f85ba065ae9ae3ec", "size_bytes": 3065, "required": false}
+      ]
+    }
+  ]
+}
+

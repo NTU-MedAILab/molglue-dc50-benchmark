@@ -1,0 +1,1748 @@
+{
+  "analysis_identity": "post_hoc_extension_float32_v4",
+  "checks": [
+    {
+      "check_id": "formal:figure-contract-sha256",
+      "evidence": {
+        "expected": "98140192a53c0fcad1a83cb736fbe8c9b22cad01fb7597223304dd2a78e0d748",
+        "observed": "98140192a53c0fcad1a83cb736fbe8c9b22cad01fb7597223304dd2a78e0d748"
+      },
+      "message": "Formal figure contract is present, non-symlinked and hash-frozen",
+      "status": "PASS"
+    },
+    {
+      "check_id": "formal:figure-qa-script-sha256",
+      "evidence": {
+        "expected": "eff8189674424e00aa3e9532ca4f082b09c8724851eac03b74458622400e955c",
+        "observed": "eff8189674424e00aa3e9532ca4f082b09c8724851eac03b74458622400e955c"
+      },
+      "message": "Formal figure-QA implementation matches its frozen identity",
+      "status": "PASS"
+    },
+    {
+      "check_id": "formal:source-provenance",
+      "evidence": 20,
+      "message": "All aggregate tables resolve to the frozen mixed-lineage v4 sources",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:exists:.svg",
+      "evidence": 53022,
+      "message": "fig1_validation_gradient.svg exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:exists:.pdf",
+      "evidence": 30006,
+      "message": "fig1_validation_gradient.pdf exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:exists:.tiff",
+      "evidence": 837152,
+      "message": "fig1_validation_gradient.tiff exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:exists:.png",
+      "evidence": 289393,
+      "message": "fig1_validation_gradient.png exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:size:.svg",
+      "evidence": 53022,
+      "message": "fig1_validation_gradient.svg is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:size:.pdf",
+      "evidence": 30006,
+      "message": "fig1_validation_gradient.pdf is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:size:.tiff",
+      "evidence": 837152,
+      "message": "fig1_validation_gradient.tiff is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:size:.png",
+      "evidence": 289393,
+      "message": "fig1_validation_gradient.png is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:svg-width",
+      "evidence": 155.294872925,
+      "message": "Frozen SVG width is positive and no wider than 170 mm",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:svg-height",
+      "evidence": 116.54596642499999,
+      "message": "Frozen SVG height is within the journal page budget",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:svg-editable-text",
+      "evidence": 66,
+      "message": "SVG retains editable text elements",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:pdf-width",
+      "evidence": 155.35028055555554,
+      "message": "PDF physical width matches the SVG canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:pdf-height",
+      "evidence": 116.5479,
+      "message": "PDF physical height matches the SVG/figure contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:pdf-fonts",
+      "evidence": [],
+      "message": "PDF fonts are detected and embedded",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:.tiff:pixels",
+      "evidence": [
+        3666,
+        2753
+      ],
+      "message": ".tiff pixel dimensions match the physical canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:.tiff:dpi",
+      "evidence": [
+        600.0,
+        600.0
+      ],
+      "message": ".tiff resolution matches the export contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:tiff-rgb",
+      "evidence": "RGB",
+      "message": "TIFF is flattened RGB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:tiff-lzw",
+      "evidence": "tiff_lzw",
+      "message": "TIFF uses LZW compression",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:.png:pixels",
+      "evidence": [
+        1833,
+        1375
+      ],
+      "message": ".png pixel dimensions match the physical canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig1_validation_gradient:.png:dpi",
+      "evidence": [
+        299.9994,
+        299.9994
+      ],
+      "message": ".png resolution matches the export contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:exists:.svg",
+      "evidence": 38945,
+      "message": "fig2_internal_evidence.svg exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:exists:.pdf",
+      "evidence": 23413,
+      "message": "fig2_internal_evidence.pdf exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:exists:.tiff",
+      "evidence": 465734,
+      "message": "fig2_internal_evidence.tiff exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:exists:.png",
+      "evidence": 125234,
+      "message": "fig2_internal_evidence.png exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:size:.svg",
+      "evidence": 38945,
+      "message": "fig2_internal_evidence.svg is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:size:.pdf",
+      "evidence": 23413,
+      "message": "fig2_internal_evidence.pdf is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:size:.tiff",
+      "evidence": 465734,
+      "message": "fig2_internal_evidence.tiff is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:size:.png",
+      "evidence": 125234,
+      "message": "fig2_internal_evidence.png is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:svg-width",
+      "evidence": 151.78106796944442,
+      "message": "Frozen SVG width is positive and no wider than 170 mm",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:svg-height",
+      "evidence": 100.0127490611111,
+      "message": "Frozen SVG height is within the journal page budget",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:svg-editable-text",
+      "evidence": 46,
+      "message": "SVG retains editable text elements",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:pdf-width",
+      "evidence": 151.78016944444443,
+      "message": "PDF physical width matches the SVG canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:pdf-height",
+      "evidence": 100.01461666666665,
+      "message": "PDF physical height matches the SVG/figure contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:pdf-fonts",
+      "evidence": [],
+      "message": "PDF fonts are detected and embedded",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:.tiff:pixels",
+      "evidence": [
+        3585,
+        2363
+      ],
+      "message": ".tiff pixel dimensions match the physical canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:.tiff:dpi",
+      "evidence": [
+        600.0,
+        600.0
+      ],
+      "message": ".tiff resolution matches the export contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:tiff-rgb",
+      "evidence": "RGB",
+      "message": "TIFF is flattened RGB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:tiff-lzw",
+      "evidence": "tiff_lzw",
+      "message": "TIFF uses LZW compression",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:.png:pixels",
+      "evidence": [
+        1792,
+        1180
+      ],
+      "message": ".png pixel dimensions match the physical canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig2_internal_evidence:.png:dpi",
+      "evidence": [
+        299.9994,
+        299.9994
+      ],
+      "message": ".png resolution matches the export contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:exists:.svg",
+      "evidence": 50694,
+      "message": "fig3_domain_transfer.svg exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:exists:.pdf",
+      "evidence": 24190,
+      "message": "fig3_domain_transfer.pdf exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:exists:.tiff",
+      "evidence": 583656,
+      "message": "fig3_domain_transfer.tiff exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:exists:.png",
+      "evidence": 220249,
+      "message": "fig3_domain_transfer.png exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:size:.svg",
+      "evidence": 50694,
+      "message": "fig3_domain_transfer.svg is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:size:.pdf",
+      "evidence": 24190,
+      "message": "fig3_domain_transfer.pdf is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:size:.tiff",
+      "evidence": 583656,
+      "message": "fig3_domain_transfer.tiff is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:size:.png",
+      "evidence": 220249,
+      "message": "fig3_domain_transfer.png is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:svg-width",
+      "evidence": 148.68653975555554,
+      "message": "Frozen SVG width is positive and no wider than 170 mm",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:svg-height",
+      "evidence": 102.76223168055554,
+      "message": "Frozen SVG height is within the journal page budget",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:svg-editable-text",
+      "evidence": 63,
+      "message": "SVG retains editable text elements",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:pdf-width",
+      "evidence": 148.70359444444443,
+      "message": "PDF physical width matches the SVG canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:pdf-height",
+      "evidence": 102.76063888888889,
+      "message": "PDF physical height matches the SVG/figure contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:pdf-fonts",
+      "evidence": [],
+      "message": "PDF fonts are detected and embedded",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:.tiff:pixels",
+      "evidence": [
+        3511,
+        2428
+      ],
+      "message": ".tiff pixel dimensions match the physical canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:.tiff:dpi",
+      "evidence": [
+        600.0,
+        600.0
+      ],
+      "message": ".tiff resolution matches the export contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:tiff-rgb",
+      "evidence": "RGB",
+      "message": "TIFF is flattened RGB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:tiff-lzw",
+      "evidence": "tiff_lzw",
+      "message": "TIFF uses LZW compression",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:.png:pixels",
+      "evidence": [
+        1755,
+        1212
+      ],
+      "message": ".png pixel dimensions match the physical canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig3_domain_transfer:.png:dpi",
+      "evidence": [
+        299.9994,
+        299.9994
+      ],
+      "message": ".png resolution matches the export contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:exists:.svg",
+      "evidence": 47868,
+      "message": "fig4_boundary_and_calibration.svg exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:exists:.pdf",
+      "evidence": 28811,
+      "message": "fig4_boundary_and_calibration.pdf exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:exists:.tiff",
+      "evidence": 774904,
+      "message": "fig4_boundary_and_calibration.tiff exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:exists:.png",
+      "evidence": 291545,
+      "message": "fig4_boundary_and_calibration.png exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:size:.svg",
+      "evidence": 47868,
+      "message": "fig4_boundary_and_calibration.svg is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:size:.pdf",
+      "evidence": 28811,
+      "message": "fig4_boundary_and_calibration.pdf is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:size:.tiff",
+      "evidence": 774904,
+      "message": "fig4_boundary_and_calibration.tiff is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:size:.png",
+      "evidence": 291545,
+      "message": "fig4_boundary_and_calibration.png is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:svg-width",
+      "evidence": 160.60673788333332,
+      "message": "Frozen SVG width is positive and no wider than 170 mm",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:svg-height",
+      "evidence": 101.89123075555554,
+      "message": "Frozen SVG height is within the journal page budget",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:svg-editable-text",
+      "evidence": 65,
+      "message": "SVG retains editable text elements",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:pdf-width",
+      "evidence": 160.67793055555552,
+      "message": "PDF physical width matches the SVG canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:pdf-height",
+      "evidence": 101.89315833333333,
+      "message": "PDF physical height matches the SVG/figure contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:pdf-fonts",
+      "evidence": [],
+      "message": "PDF fonts are detected and embedded",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:.tiff:pixels",
+      "evidence": [
+        3792,
+        2407
+      ],
+      "message": ".tiff pixel dimensions match the physical canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:.tiff:dpi",
+      "evidence": [
+        600.0,
+        600.0
+      ],
+      "message": ".tiff resolution matches the export contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:tiff-rgb",
+      "evidence": "RGB",
+      "message": "TIFF is flattened RGB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:tiff-lzw",
+      "evidence": "tiff_lzw",
+      "message": "TIFF uses LZW compression",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:.png:pixels",
+      "evidence": [
+        1896,
+        1202
+      ],
+      "message": ".png pixel dimensions match the physical canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig4_boundary_and_calibration:.png:dpi",
+      "evidence": [
+        299.9994,
+        299.9994
+      ],
+      "message": ".png resolution matches the export contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:exists:.svg",
+      "evidence": 48916,
+      "message": "fig5_robustness_map.svg exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:exists:.pdf",
+      "evidence": 42220,
+      "message": "fig5_robustness_map.pdf exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:exists:.tiff",
+      "evidence": 923912,
+      "message": "fig5_robustness_map.tiff exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:exists:.png",
+      "evidence": 253488,
+      "message": "fig5_robustness_map.png exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:size:.svg",
+      "evidence": 48916,
+      "message": "fig5_robustness_map.svg is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:size:.pdf",
+      "evidence": 42220,
+      "message": "fig5_robustness_map.pdf is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:size:.tiff",
+      "evidence": 923912,
+      "message": "fig5_robustness_map.tiff is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:size:.png",
+      "evidence": 253488,
+      "message": "fig5_robustness_map.png is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:svg-width",
+      "evidence": 170.00000007777777,
+      "message": "SVG physical width is 170 mm",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:svg-height",
+      "evidence": 140.97,
+      "message": "SVG physical height matches the figure contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:svg-editable-text",
+      "evidence": 65,
+      "message": "SVG retains editable text elements",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:text:Held-axis context portability",
+      "evidence": null,
+      "message": "Rendered figure contains required explanatory text: Held-axis context portability",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:text:Scaffold-definition sensitivity",
+      "evidence": null,
+      "message": "Rendered figure contains required explanatory text: Scaffold-definition sensitivity",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:text:Training-source deletion",
+      "evidence": null,
+      "message": "Rendered figure contains required explanatory text: Training-source deletion",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:text:95% CI",
+      "evidence": null,
+      "message": "Rendered figure contains required explanatory text: 95% CI",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:text:10,000 resamples",
+      "evidence": null,
+      "message": "Rendered figure contains required explanatory text: 10,000 resamples",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:panel-labels",
+      "evidence": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "message": "Expected lowercase panel labels are rendered",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:pdf-width",
+      "evidence": 170.00008333333332,
+      "message": "PDF physical width matches the SVG canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:pdf-height",
+      "evidence": 140.97,
+      "message": "PDF physical height matches the SVG/figure contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:pdf-fonts",
+      "evidence": [],
+      "message": "PDF fonts are detected and embedded",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:.tiff:pixels",
+      "evidence": [
+        4015,
+        3330
+      ],
+      "message": ".tiff pixel dimensions match the physical canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:.tiff:dpi",
+      "evidence": [
+        600.0,
+        600.0
+      ],
+      "message": ".tiff resolution matches the export contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:tiff-rgb",
+      "evidence": "RGB",
+      "message": "TIFF is flattened RGB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:tiff-lzw",
+      "evidence": "tiff_lzw",
+      "message": "TIFF uses LZW compression",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:.png:pixels",
+      "evidence": [
+        2007,
+        1665
+      ],
+      "message": ".png pixel dimensions match the physical canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "fig5_robustness_map:.png:dpi",
+      "evidence": [
+        299.9994,
+        299.9994
+      ],
+      "message": ".png resolution matches the export contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:exists:.svg",
+      "evidence": 84315,
+      "message": "supp_fig_s1_applicability_profile.svg exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:exists:.pdf",
+      "evidence": 43238,
+      "message": "supp_fig_s1_applicability_profile.pdf exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:exists:.tiff",
+      "evidence": 1130292,
+      "message": "supp_fig_s1_applicability_profile.tiff exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:exists:.png",
+      "evidence": 342774,
+      "message": "supp_fig_s1_applicability_profile.png exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:size:.svg",
+      "evidence": 84315,
+      "message": "supp_fig_s1_applicability_profile.svg is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:size:.pdf",
+      "evidence": 43238,
+      "message": "supp_fig_s1_applicability_profile.pdf is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:size:.tiff",
+      "evidence": 1130292,
+      "message": "supp_fig_s1_applicability_profile.tiff is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:size:.png",
+      "evidence": 342774,
+      "message": "supp_fig_s1_applicability_profile.png is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:svg-width",
+      "evidence": 170.00000007777777,
+      "message": "SVG physical width is 170 mm",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:svg-height",
+      "evidence": 188.468,
+      "message": "SVG physical height matches the figure contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:svg-editable-text",
+      "evidence": 115,
+      "message": "SVG retains editable text elements",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:text:Maximum train-set Tanimoto bin",
+      "evidence": null,
+      "message": "Rendered figure contains required explanatory text: Maximum train-set Tanimoto bin",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:text:RMSE",
+      "evidence": null,
+      "message": "Rendered figure contains required explanatory text: RMSE",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:text:resamples",
+      "evidence": null,
+      "message": "Rendered figure contains required explanatory text: resamples",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:text:No lines connect bins",
+      "evidence": null,
+      "message": "Rendered figure contains required explanatory text: No lines connect bins",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:text:CI NE",
+      "evidence": null,
+      "message": "Rendered figure contains required explanatory text: CI NE",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:panel-labels",
+      "evidence": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "message": "Expected lowercase panel labels are rendered",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:pdf-width",
+      "evidence": 170.00008333333332,
+      "message": "PDF physical width matches the SVG canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:pdf-height",
+      "evidence": 188.468,
+      "message": "PDF physical height matches the SVG/figure contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:pdf-fonts",
+      "evidence": [],
+      "message": "PDF fonts are detected and embedded",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:.tiff:pixels",
+      "evidence": [
+        4015,
+        4452
+      ],
+      "message": ".tiff pixel dimensions match the physical canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:.tiff:dpi",
+      "evidence": [
+        600.0,
+        600.0
+      ],
+      "message": ".tiff resolution matches the export contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:tiff-rgb",
+      "evidence": "RGB",
+      "message": "TIFF is flattened RGB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:tiff-lzw",
+      "evidence": "tiff_lzw",
+      "message": "TIFF uses LZW compression",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:.png:pixels",
+      "evidence": [
+        2007,
+        2226
+      ],
+      "message": ".png pixel dimensions match the physical canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s1_applicability_profile:.png:dpi",
+      "evidence": [
+        299.9994,
+        299.9994
+      ],
+      "message": ".png resolution matches the export contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:exists:.svg",
+      "evidence": 133711,
+      "message": "supp_fig_s2_permutation_controls.svg exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:exists:.pdf",
+      "evidence": 44224,
+      "message": "supp_fig_s2_permutation_controls.pdf exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:exists:.tiff",
+      "evidence": 1255550,
+      "message": "supp_fig_s2_permutation_controls.tiff exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:exists:.png",
+      "evidence": 220469,
+      "message": "supp_fig_s2_permutation_controls.png exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:size:.svg",
+      "evidence": 133711,
+      "message": "supp_fig_s2_permutation_controls.svg is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:size:.pdf",
+      "evidence": 44224,
+      "message": "supp_fig_s2_permutation_controls.pdf is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:size:.tiff",
+      "evidence": 1255550,
+      "message": "supp_fig_s2_permutation_controls.tiff is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:size:.png",
+      "evidence": 220469,
+      "message": "supp_fig_s2_permutation_controls.png is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:svg-width",
+      "evidence": 170.00000007777777,
+      "message": "SVG physical width is 170 mm",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:svg-height",
+      "evidence": 135.89,
+      "message": "SVG physical height matches the figure contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:svg-editable-text",
+      "evidence": 83,
+      "message": "SVG retains editable text elements",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:text:Permutation count",
+      "evidence": null,
+      "message": "Rendered figure contains required explanatory text: Permutation count",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:text:one-sided",
+      "evidence": null,
+      "message": "Rendered figure contains required explanatory text: one-sided",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:text:All 100",
+      "evidence": null,
+      "message": "Rendered figure contains required explanatory text: All 100",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:text:within-source",
+      "evidence": null,
+      "message": "Rendered figure contains required explanatory text: within-source",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:panel-labels",
+      "evidence": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "message": "Expected lowercase panel labels are rendered",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:pdf-width",
+      "evidence": 170.00008333333332,
+      "message": "PDF physical width matches the SVG canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:pdf-height",
+      "evidence": 135.89,
+      "message": "PDF physical height matches the SVG/figure contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:pdf-fonts",
+      "evidence": [],
+      "message": "PDF fonts are detected and embedded",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:.tiff:pixels",
+      "evidence": [
+        4015,
+        3210
+      ],
+      "message": ".tiff pixel dimensions match the physical canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:.tiff:dpi",
+      "evidence": [
+        600.0,
+        600.0
+      ],
+      "message": ".tiff resolution matches the export contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:tiff-rgb",
+      "evidence": "RGB",
+      "message": "TIFF is flattened RGB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:tiff-lzw",
+      "evidence": "tiff_lzw",
+      "message": "TIFF uses LZW compression",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:.png:pixels",
+      "evidence": [
+        2007,
+        1605
+      ],
+      "message": ".png pixel dimensions match the physical canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s2_permutation_controls:.png:dpi",
+      "evidence": [
+        299.9994,
+        299.9994
+      ],
+      "message": ".png resolution matches the export contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:exists:.svg",
+      "evidence": 173030,
+      "message": "supp_fig_s3_endpoint_selection_boundary.svg exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:exists:.pdf",
+      "evidence": 55443,
+      "message": "supp_fig_s3_endpoint_selection_boundary.pdf exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:exists:.tiff",
+      "evidence": 1078594,
+      "message": "supp_fig_s3_endpoint_selection_boundary.tiff exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:exists:.png",
+      "evidence": 303944,
+      "message": "supp_fig_s3_endpoint_selection_boundary.png exists, is non-symlinked and is non-empty",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:size:.svg",
+      "evidence": 173030,
+      "message": "supp_fig_s3_endpoint_selection_boundary.svg is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:size:.pdf",
+      "evidence": 55443,
+      "message": "supp_fig_s3_endpoint_selection_boundary.pdf is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:size:.tiff",
+      "evidence": 1078594,
+      "message": "supp_fig_s3_endpoint_selection_boundary.tiff is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:size:.png",
+      "evidence": 303944,
+      "message": "supp_fig_s3_endpoint_selection_boundary.png is below 10 MB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:svg-width",
+      "evidence": 170.00000007777777,
+      "message": "SVG physical width is 170 mm",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:svg-height",
+      "evidence": 149.85999999999999,
+      "message": "SVG physical height matches the figure contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:svg-editable-text",
+      "evidence": 70,
+      "message": "SVG retains editable text elements",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:text:parsed-record rows",
+      "evidence": null,
+      "message": "Rendered figure contains required explanatory text: parsed-record rows",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:text:not unique record IDs",
+      "evidence": null,
+      "message": "Rendered figure contains required explanatory text: not unique record IDs",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:text:not fitted as point labels",
+      "evidence": null,
+      "message": "Rendered figure contains required explanatory text: not fitted as point labels",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:text:target categories are shown",
+      "evidence": null,
+      "message": "Rendered figure contains required explanatory text: target categories are shown",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:panel-labels",
+      "evidence": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "message": "Expected lowercase panel labels are rendered",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:pdf-width",
+      "evidence": 170.00008333333332,
+      "message": "PDF physical width matches the SVG canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:pdf-height",
+      "evidence": 149.86,
+      "message": "PDF physical height matches the SVG/figure contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:pdf-fonts",
+      "evidence": [],
+      "message": "PDF fonts are detected and embedded",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:.tiff:pixels",
+      "evidence": [
+        4015,
+        3540
+      ],
+      "message": ".tiff pixel dimensions match the physical canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:.tiff:dpi",
+      "evidence": [
+        600.0,
+        600.0
+      ],
+      "message": ".tiff resolution matches the export contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:tiff-rgb",
+      "evidence": "RGB",
+      "message": "TIFF is flattened RGB",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:tiff-lzw",
+      "evidence": "tiff_lzw",
+      "message": "TIFF uses LZW compression",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:.png:pixels",
+      "evidence": [
+        2007,
+        1770
+      ],
+      "message": ".png pixel dimensions match the physical canvas",
+      "status": "PASS"
+    },
+    {
+      "check_id": "supp_fig_s3_endpoint_selection_boundary:.png:dpi",
+      "evidence": [
+        299.9994,
+        299.9994
+      ],
+      "message": ".png resolution matches the export contract",
+      "status": "PASS"
+    },
+    {
+      "check_id": "existing-figures:complete",
+      "evidence": 16,
+      "message": "The exact frozen Fig. 1--4 export set is present",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:exists",
+      "evidence": null,
+      "message": "Figure bundle manifest exists and is non-symlinked",
+      "status": "PASS"
+    },
+    {
+      "check_id": "provenance-record:exists",
+      "evidence": null,
+      "message": "Figure provenance record exists and is non-symlinked",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:exact-figure-set",
+      "evidence": {
+        "directory_files": 32,
+        "manifest_rows": 32,
+        "symlinks": []
+      },
+      "message": "Manifest and directory contain exactly 8 stems x 4 formats",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:unique-sha256",
+      "evidence": null,
+      "message": "All 32 figure rows have unique, canonical SHA-256 values",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig1_validation_gradient.pdf",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig1_validation_gradient.png",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig1_validation_gradient.svg",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig1_validation_gradient.tiff",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig2_internal_evidence.pdf",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig2_internal_evidence.png",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig2_internal_evidence.svg",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig2_internal_evidence.tiff",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig3_domain_transfer.pdf",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig3_domain_transfer.png",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig3_domain_transfer.svg",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig3_domain_transfer.tiff",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig4_boundary_and_calibration.pdf",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig4_boundary_and_calibration.png",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig4_boundary_and_calibration.svg",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig4_boundary_and_calibration.tiff",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig5_robustness_map.pdf",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig5_robustness_map.png",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig5_robustness_map.svg",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:fig5_robustness_map.tiff",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:supp_fig_s1_applicability_profile.pdf",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:supp_fig_s1_applicability_profile.png",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:supp_fig_s1_applicability_profile.svg",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:supp_fig_s1_applicability_profile.tiff",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:supp_fig_s2_permutation_controls.pdf",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:supp_fig_s2_permutation_controls.png",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:supp_fig_s2_permutation_controls.svg",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:supp_fig_s2_permutation_controls.tiff",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:supp_fig_s3_endpoint_selection_boundary.pdf",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:supp_fig_s3_endpoint_selection_boundary.png",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:supp_fig_s3_endpoint_selection_boundary.svg",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "manifest:supp_fig_s3_endpoint_selection_boundary.tiff",
+      "evidence": null,
+      "message": "Manifest row matches its file and mixed-lineage v4 provenance",
+      "status": "PASS"
+    },
+    {
+      "check_id": "provenance-record:identity",
+      "evidence": null,
+      "message": "Figure provenance binds the manifest, source generation and v4 lineage",
+      "status": "PASS"
+    },
+    {
+      "check_id": "formal:required-check-id-set",
+      "evidence": {
+        "missing": [],
+        "observed_before_gate": 223,
+        "required_count": 224,
+        "unexpected": []
+      },
+      "message": "Formal QA executed the complete, unique required check-ID set",
+      "status": "PASS"
+    }
+  ],
+  "counts": {
+    "FAIL": 0,
+    "PASS": 224,
+    "WARN": 0
+  },
+  "expected_crosscheck_check_ids_sha256": "e73095d72ec6e070c7ef74c09307ebd73242af3175f0792f9303911ac4770719",
+  "figure_bundle_manifest_sha256": "7dde399e16512768de8d6088603aa3d039ea1268580de6b152017360eb765d44",
+  "figure_contract_filename": "computational_extension_figure_contract_v1.md",
+  "figure_contract_sha256": "98140192a53c0fcad1a83cb736fbe8c9b22cad01fb7597223304dd2a78e0d748",
+  "figure_generation_id": "1b94dc818a575d1f0170c9d130f3b8d4f0f3683a2f37956bb53a4163a0f6ff57",
+  "figure_provenance_sha256": "d183b29eef8dd4d7cc56c7702b2b7f97ea2ec1cc1eb5d74654c8e6f80628f3be",
+  "figure_qa_required_check_count": 224,
+  "figure_qa_required_check_ids": [
+    "existing-figures:complete",
+    "fig1_validation_gradient:.png:dpi",
+    "fig1_validation_gradient:.png:pixels",
+    "fig1_validation_gradient:.tiff:dpi",
+    "fig1_validation_gradient:.tiff:pixels",
+    "fig1_validation_gradient:exists:.pdf",
+    "fig1_validation_gradient:exists:.png",
+    "fig1_validation_gradient:exists:.svg",
+    "fig1_validation_gradient:exists:.tiff",
+    "fig1_validation_gradient:pdf-fonts",
+    "fig1_validation_gradient:pdf-height",
+    "fig1_validation_gradient:pdf-width",
+    "fig1_validation_gradient:size:.pdf",
+    "fig1_validation_gradient:size:.png",
+    "fig1_validation_gradient:size:.svg",
+    "fig1_validation_gradient:size:.tiff",
+    "fig1_validation_gradient:svg-editable-text",
+    "fig1_validation_gradient:svg-height",
+    "fig1_validation_gradient:svg-width",
+    "fig1_validation_gradient:tiff-lzw",
+    "fig1_validation_gradient:tiff-rgb",
+    "fig2_internal_evidence:.png:dpi",
+    "fig2_internal_evidence:.png:pixels",
+    "fig2_internal_evidence:.tiff:dpi",
+    "fig2_internal_evidence:.tiff:pixels",
+    "fig2_internal_evidence:exists:.pdf",
+    "fig2_internal_evidence:exists:.png",
+    "fig2_internal_evidence:exists:.svg",
+    "fig2_internal_evidence:exists:.tiff",
+    "fig2_internal_evidence:pdf-fonts",
+    "fig2_internal_evidence:pdf-height",
+    "fig2_internal_evidence:pdf-width",
+    "fig2_internal_evidence:size:.pdf",
+    "fig2_internal_evidence:size:.png",
+    "fig2_internal_evidence:size:.svg",
+    "fig2_internal_evidence:size:.tiff",
+    "fig2_internal_evidence:svg-editable-text",
+    "fig2_internal_evidence:svg-height",
+    "fig2_internal_evidence:svg-width",
+    "fig2_internal_evidence:tiff-lzw",
+    "fig2_internal_evidence:tiff-rgb",
+    "fig3_domain_transfer:.png:dpi",
+    "fig3_domain_transfer:.png:pixels",
+    "fig3_domain_transfer:.tiff:dpi",
+    "fig3_domain_transfer:.tiff:pixels",
+    "fig3_domain_transfer:exists:.pdf",
+    "fig3_domain_transfer:exists:.png",
+    "fig3_domain_transfer:exists:.svg",
+    "fig3_domain_transfer:exists:.tiff",
+    "fig3_domain_transfer:pdf-fonts",
+    "fig3_domain_transfer:pdf-height",
+    "fig3_domain_transfer:pdf-width",
+    "fig3_domain_transfer:size:.pdf",
+    "fig3_domain_transfer:size:.png",
+    "fig3_domain_transfer:size:.svg",
+    "fig3_domain_transfer:size:.tiff",
+    "fig3_domain_transfer:svg-editable-text",
+    "fig3_domain_transfer:svg-height",
+    "fig3_domain_transfer:svg-width",
+    "fig3_domain_transfer:tiff-lzw",
+    "fig3_domain_transfer:tiff-rgb",
+    "fig4_boundary_and_calibration:.png:dpi",
+    "fig4_boundary_and_calibration:.png:pixels",
+    "fig4_boundary_and_calibration:.tiff:dpi",
+    "fig4_boundary_and_calibration:.tiff:pixels",
+    "fig4_boundary_and_calibration:exists:.pdf",
+    "fig4_boundary_and_calibration:exists:.png",
+    "fig4_boundary_and_calibration:exists:.svg",
+    "fig4_boundary_and_calibration:exists:.tiff",
+    "fig4_boundary_and_calibration:pdf-fonts",
+    "fig4_boundary_and_calibration:pdf-height",
+    "fig4_boundary_and_calibration:pdf-width",
+    "fig4_boundary_and_calibration:size:.pdf",
+    "fig4_boundary_and_calibration:size:.png",
+    "fig4_boundary_and_calibration:size:.svg",
+    "fig4_boundary_and_calibration:size:.tiff",
+    "fig4_boundary_and_calibration:svg-editable-text",
+    "fig4_boundary_and_calibration:svg-height",
+    "fig4_boundary_and_calibration:svg-width",
+    "fig4_boundary_and_calibration:tiff-lzw",
+    "fig4_boundary_and_calibration:tiff-rgb",
+    "fig5_robustness_map:.png:dpi",
+    "fig5_robustness_map:.png:pixels",
+    "fig5_robustness_map:.tiff:dpi",
+    "fig5_robustness_map:.tiff:pixels",
+    "fig5_robustness_map:exists:.pdf",
+    "fig5_robustness_map:exists:.png",
+    "fig5_robustness_map:exists:.svg",
+    "fig5_robustness_map:exists:.tiff",
+    "fig5_robustness_map:panel-labels",
+    "fig5_robustness_map:pdf-fonts",
+    "fig5_robustness_map:pdf-height",
+    "fig5_robustness_map:pdf-width",
+    "fig5_robustness_map:size:.pdf",
+    "fig5_robustness_map:size:.png",
+    "fig5_robustness_map:size:.svg",
+    "fig5_robustness_map:size:.tiff",
+    "fig5_robustness_map:svg-editable-text",
+    "fig5_robustness_map:svg-height",
+    "fig5_robustness_map:svg-width",
+    "fig5_robustness_map:text:10,000 resamples",
+    "fig5_robustness_map:text:95% CI",
+    "fig5_robustness_map:text:Held-axis context portability",
+    "fig5_robustness_map:text:Scaffold-definition sensitivity",
+    "fig5_robustness_map:text:Training-source deletion",
+    "fig5_robustness_map:tiff-lzw",
+    "fig5_robustness_map:tiff-rgb",
+    "formal:figure-contract-sha256",
+    "formal:figure-qa-script-sha256",
+    "formal:required-check-id-set",
+    "formal:source-provenance",
+    "manifest:exact-figure-set",
+    "manifest:exists",
+    "manifest:fig1_validation_gradient.pdf",
+    "manifest:fig1_validation_gradient.png",
+    "manifest:fig1_validation_gradient.svg",
+    "manifest:fig1_validation_gradient.tiff",
+    "manifest:fig2_internal_evidence.pdf",
+    "manifest:fig2_internal_evidence.png",
+    "manifest:fig2_internal_evidence.svg",
+    "manifest:fig2_internal_evidence.tiff",
+    "manifest:fig3_domain_transfer.pdf",
+    "manifest:fig3_domain_transfer.png",
+    "manifest:fig3_domain_transfer.svg",
+    "manifest:fig3_domain_transfer.tiff",
+    "manifest:fig4_boundary_and_calibration.pdf",
+    "manifest:fig4_boundary_and_calibration.png",
+    "manifest:fig4_boundary_and_calibration.svg",
+    "manifest:fig4_boundary_and_calibration.tiff",
+    "manifest:fig5_robustness_map.pdf",
+    "manifest:fig5_robustness_map.png",
+    "manifest:fig5_robustness_map.svg",
+    "manifest:fig5_robustness_map.tiff",
+    "manifest:supp_fig_s1_applicability_profile.pdf",
+    "manifest:supp_fig_s1_applicability_profile.png",
+    "manifest:supp_fig_s1_applicability_profile.svg",
+    "manifest:supp_fig_s1_applicability_profile.tiff",
+    "manifest:supp_fig_s2_permutation_controls.pdf",
+    "manifest:supp_fig_s2_permutation_controls.png",
+    "manifest:supp_fig_s2_permutation_controls.svg",
+    "manifest:supp_fig_s2_permutation_controls.tiff",
+    "manifest:supp_fig_s3_endpoint_selection_boundary.pdf",
+    "manifest:supp_fig_s3_endpoint_selection_boundary.png",
+    "manifest:supp_fig_s3_endpoint_selection_boundary.svg",
+    "manifest:supp_fig_s3_endpoint_selection_boundary.tiff",
+    "manifest:unique-sha256",
+    "provenance-record:exists",
+    "provenance-record:identity",
+    "supp_fig_s1_applicability_profile:.png:dpi",
+    "supp_fig_s1_applicability_profile:.png:pixels",
+    "supp_fig_s1_applicability_profile:.tiff:dpi",
+    "supp_fig_s1_applicability_profile:.tiff:pixels",
+    "supp_fig_s1_applicability_profile:exists:.pdf",
+    "supp_fig_s1_applicability_profile:exists:.png",
+    "supp_fig_s1_applicability_profile:exists:.svg",
+    "supp_fig_s1_applicability_profile:exists:.tiff",
+    "supp_fig_s1_applicability_profile:panel-labels",
+    "supp_fig_s1_applicability_profile:pdf-fonts",
+    "supp_fig_s1_applicability_profile:pdf-height",
+    "supp_fig_s1_applicability_profile:pdf-width",
+    "supp_fig_s1_applicability_profile:size:.pdf",
+    "supp_fig_s1_applicability_profile:size:.png",
+    "supp_fig_s1_applicability_profile:size:.svg",
+    "supp_fig_s1_applicability_profile:size:.tiff",
+    "supp_fig_s1_applicability_profile:svg-editable-text",
+    "supp_fig_s1_applicability_profile:svg-height",
+    "supp_fig_s1_applicability_profile:svg-width",
+    "supp_fig_s1_applicability_profile:text:CI NE",
+    "supp_fig_s1_applicability_profile:text:Maximum train-set Tanimoto bin",
+    "supp_fig_s1_applicability_profile:text:No lines connect bins",
+    "supp_fig_s1_applicability_profile:text:RMSE",
+    "supp_fig_s1_applicability_profile:text:resamples",
+    "supp_fig_s1_applicability_profile:tiff-lzw",
+    "supp_fig_s1_applicability_profile:tiff-rgb",
+    "supp_fig_s2_permutation_controls:.png:dpi",
+    "supp_fig_s2_permutation_controls:.png:pixels",
+    "supp_fig_s2_permutation_controls:.tiff:dpi",
+    "supp_fig_s2_permutation_controls:.tiff:pixels",
+    "supp_fig_s2_permutation_controls:exists:.pdf",
+    "supp_fig_s2_permutation_controls:exists:.png",
+    "supp_fig_s2_permutation_controls:exists:.svg",
+    "supp_fig_s2_permutation_controls:exists:.tiff",
+    "supp_fig_s2_permutation_controls:panel-labels",
+    "supp_fig_s2_permutation_controls:pdf-fonts",
+    "supp_fig_s2_permutation_controls:pdf-height",
+    "supp_fig_s2_permutation_controls:pdf-width",
+    "supp_fig_s2_permutation_controls:size:.pdf",
+    "supp_fig_s2_permutation_controls:size:.png",
+    "supp_fig_s2_permutation_controls:size:.svg",
+    "supp_fig_s2_permutation_controls:size:.tiff",
+    "supp_fig_s2_permutation_controls:svg-editable-text",
+    "supp_fig_s2_permutation_controls:svg-height",
+    "supp_fig_s2_permutation_controls:svg-width",
+    "supp_fig_s2_permutation_controls:text:All 100",
+    "supp_fig_s2_permutation_controls:text:Permutation count",
+    "supp_fig_s2_permutation_controls:text:one-sided",
+    "supp_fig_s2_permutation_controls:text:within-source",
+    "supp_fig_s2_permutation_controls:tiff-lzw",
+    "supp_fig_s2_permutation_controls:tiff-rgb",
+    "supp_fig_s3_endpoint_selection_boundary:.png:dpi",
+    "supp_fig_s3_endpoint_selection_boundary:.png:pixels",
+    "supp_fig_s3_endpoint_selection_boundary:.tiff:dpi",
+    "supp_fig_s3_endpoint_selection_boundary:.tiff:pixels",
+    "supp_fig_s3_endpoint_selection_boundary:exists:.pdf",
+    "supp_fig_s3_endpoint_selection_boundary:exists:.png",
+    "supp_fig_s3_endpoint_selection_boundary:exists:.svg",
+    "supp_fig_s3_endpoint_selection_boundary:exists:.tiff",
+    "supp_fig_s3_endpoint_selection_boundary:panel-labels",
+    "supp_fig_s3_endpoint_selection_boundary:pdf-fonts",
+    "supp_fig_s3_endpoint_selection_boundary:pdf-height",
+    "supp_fig_s3_endpoint_selection_boundary:pdf-width",
+    "supp_fig_s3_endpoint_selection_boundary:size:.pdf",
+    "supp_fig_s3_endpoint_selection_boundary:size:.png",
+    "supp_fig_s3_endpoint_selection_boundary:size:.svg",
+    "supp_fig_s3_endpoint_selection_boundary:size:.tiff",
+    "supp_fig_s3_endpoint_selection_boundary:svg-editable-text",
+    "supp_fig_s3_endpoint_selection_boundary:svg-height",
+    "supp_fig_s3_endpoint_selection_boundary:svg-width",
+    "supp_fig_s3_endpoint_selection_boundary:text:not fitted as point labels",
+    "supp_fig_s3_endpoint_selection_boundary:text:not unique record IDs",
+    "supp_fig_s3_endpoint_selection_boundary:text:parsed-record rows",
+    "supp_fig_s3_endpoint_selection_boundary:text:target categories are shown",
+    "supp_fig_s3_endpoint_selection_boundary:tiff-lzw",
+    "supp_fig_s3_endpoint_selection_boundary:tiff-rgb"
+  ],
+  "figure_qa_required_check_ids_sha256": "f7c6f1901f9d04ebe9970be7fdb823b59150f95347ab52f799feb54bb891835e",
+  "figure_qa_script_sha256": "eff8189674424e00aa3e9532ca4f082b09c8724851eac03b74458622400e955c",
+  "fixed_domain_correction_sha256": "9c2d8f90fa546480a37b6e7546cbd9e9a740916325e5dec973f9fa7f8ef899ce",
+  "float32_correction_sha256": "75a8b0e4f894cead9d72039eab9e6162a89d2a20c79afceda8a2aae1ffd78f3f",
+  "formal_scientific_certification": true,
+  "independent_crosscheck_sha256": "4ad6b27d6471fd6ac3748624a47b37b4528beebdb79dcb4aad3a52023f830995",
+  "mode": "formal",
+  "overall_status": "PASS",
+  "prospective_dataset_statement": "No publication-eligible independent prospective dataset was available.",
+  "provenance_contract_sha256": "e45fe57721f9cfd1c8d3773356d71db738c924c7dd2331b0bb7ee3c94086e815",
+  "publication_eligible_independent_prospective_dataset_available": false,
+  "response_dtype": "float32",
+  "results_summarizer_sha256": "71a4fb14ed1eac0138dce9e02e7da97e462a6f543504a8ca41bfec3fe8d42439",
+  "source_data_builder_sha256": "42b8f31d74cdd69a1d6ca05f84e1546889f6ba45cd4b1440792b5ee3bfc93fdb",
+  "source_data_extension_checksums_sha256": "103276a4b71ab80d6db41447faf955a749b2a8f69f0099b55de5328ecd5e71b4",
+  "source_data_extension_index_sha256": "8cd3acaf120fe09bc1b92b894d6e8b365f3af550b1f165ccad31b459324bc3f4",
+  "source_data_extension_provenance_sha256": "b67e1f3581d536bca09650a3afeafa09a6dfba2c2f969809041a539528039bc5",
+  "source_data_generation_id": "2dfa3b400e36d870b4b2f7b6860c6ffd38e07ff16aaf756aab930b5ca0844f6c",
+  "source_data_provenance": {
+    "analysis_identity": "post_hoc_extension_float32_v4",
+    "expected_crosscheck_check_ids_sha256": "e73095d72ec6e070c7ef74c09307ebd73242af3175f0792f9303911ac4770719",
+    "independent_crosscheck_sha256": "4ad6b27d6471fd6ac3748624a47b37b4528beebdb79dcb4aad3a52023f830995",
+    "results_summarizer_sha256": "71a4fb14ed1eac0138dce9e02e7da97e462a6f543504a8ca41bfec3fe8d42439",
+    "source_data_builder_sha256": "42b8f31d74cdd69a1d6ca05f84e1546889f6ba45cd4b1440792b5ee3bfc93fdb",
+    "source_data_extension_checksums_sha256": "103276a4b71ab80d6db41447faf955a749b2a8f69f0099b55de5328ecd5e71b4",
+    "source_data_extension_index_sha256": "8cd3acaf120fe09bc1b92b894d6e8b365f3af550b1f165ccad31b459324bc3f4",
+    "source_data_extension_provenance_sha256": "b67e1f3581d536bca09650a3afeafa09a6dfba2c2f969809041a539528039bc5",
+    "source_data_generation_id": "2dfa3b400e36d870b4b2f7b6860c6ffd38e07ff16aaf756aab930b5ca0844f6c"
+  }
+}

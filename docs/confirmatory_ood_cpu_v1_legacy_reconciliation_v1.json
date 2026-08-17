@@ -1,0 +1,378 @@
+{
+  "reconciliation_version": "confirmatory_ood_cpu_v1_legacy_reconciliation.v1",
+  "status": "PASS",
+  "analysis_identity": "confirmatory_ood_cpu_v1.0",
+  "created_from_existing_artifacts_only": true,
+  "restricted_collaborator_material_used": false,
+  "comparison_policy": {
+    "primary_exact_files": [
+      "ood_analysis_index.csv",
+      "ood_checkpoint_inventory.json",
+      "ood_context_sanitization_audit.csv",
+      "ood_domain_metrics.csv",
+      "ood_inner_split_audit.csv",
+      "ood_inner_tuning_metrics.csv",
+      "ood_predictions.csv",
+      "ood_selected_hyperparameters.csv",
+      "ood_split_audit.csv"
+    ],
+    "derived_numeric_tolerance_files": [
+      "ood_aggregate_metrics.csv",
+      "ood_domain_scaffold_bootstrap.csv",
+      "ood_paired_scaffold_bootstrap.csv"
+    ],
+    "absolute_tolerance": 1e-12,
+    "relative_tolerance": 0.0,
+    "manifest_operational_field_allowlist": [
+      "elapsed_seconds",
+      "resume_count",
+      "run_session_started_unix"
+    ],
+    "manifest_derived_inventory_field_allowlist": [
+      "artifact_inventory.ood_aggregate_metrics.csv.sha256",
+      "artifact_inventory.ood_aggregate_metrics.csv.size_bytes",
+      "artifact_inventory.ood_domain_scaffold_bootstrap.csv.sha256",
+      "artifact_inventory.ood_domain_scaffold_bootstrap.csv.size_bytes",
+      "artifact_inventory.ood_paired_scaffold_bootstrap.csv.sha256",
+      "artifact_inventory.ood_paired_scaffold_bootstrap.csv.size_bytes"
+    ]
+  },
+  "directories": {
+    "current": "reports/confirmatory_ood_cpu_v1",
+    "reproduction": "reports/publication_validation_v1/reproduction/confirmatory_ood_cpu_v1",
+    "shared_file_count": 13,
+    "current_only_report_files": [
+      "artifact_sha256.csv",
+      "qa_summary.md",
+      "results_brief_zh.md"
+    ]
+  },
+  "historical_manifest_hash_chain": {
+    "frozen_identity_path": "docs/post_hoc_strict_domain_scaffold_ood_cpu_v1_frozen_identity.json",
+    "frozen_identity_sha256": "5bb913e80b78a67106041424700f210b65d8a55869614a38f1c8f662b4f13b6d",
+    "frozen_identity_key": "frozen_identity.file_sha256.ood_result_manifest",
+    "frozen_manifest_sha256": "1692bd2bcf729a8d099875bc1d640f351e30691afa480f54a42e8a99cadf4b65",
+    "artifact_inventory_path": "reports/confirmatory_ood_cpu_v1/artifact_sha256.csv",
+    "artifact_inventory_sha256": "795a384024a6811758b0bb00ca70f15213c006ecd2445c1e8caa6a9251bff750",
+    "artifact_inventory_row": {
+      "relative_path": "ood_run_manifest.json",
+      "sha256": "1692bd2bcf729a8d099875bc1d640f351e30691afa480f54a42e8a99cadf4b65",
+      "size_bytes": "34402",
+      "kind": "json",
+      "n_rows": "",
+      "n_columns": "",
+      "verification": "PASS"
+    },
+    "historical_manifest_bytes_available_in_compared_directories": false,
+    "current_manifest_is_historical_manifest": false
+  },
+  "scientific_configuration": {
+    "canonical_sha256": "fd10b444eb205af2a150e81b19b281301d0bc0a6c28cf8a30892297ea8a0ceab",
+    "exact_between_current_and_reproduction": true
+  },
+  "shared_files": [
+    {
+      "file": "ood_aggregate_metrics.csv",
+      "classification": "derived_numeric_tolerance",
+      "current_sha256": "5ceb541f330b2d7dc48fa7673401a6bbd8ad7f19f350e180c6d48141ec43dbe9",
+      "reproduction_sha256": "2dc191c039d908522c9a11a4e9405fe5cc4ac66b3b595cfeb51bed5569958c1f",
+      "current_size_bytes": 6047,
+      "reproduction_size_bytes": 6044,
+      "byte_exact": false,
+      "schema_exact": true,
+      "shape": [
+        16,
+        30
+      ],
+      "reproduction_shape": [
+        16,
+        30
+      ],
+      "non_numeric_exact": true,
+      "max_abs_numeric_difference": 2.1316282072803006e-14,
+      "numeric_mismatches_at_tolerance": 0
+    },
+    {
+      "file": "ood_analysis_index.csv",
+      "classification": "primary_exact",
+      "current_sha256": "8e428539689da3ec909d90842a3ea63407d786087621279cfc96b7ffa1a4d041",
+      "reproduction_sha256": "8e428539689da3ec909d90842a3ea63407d786087621279cfc96b7ffa1a4d041",
+      "current_size_bytes": 302542,
+      "reproduction_size_bytes": 302542,
+      "byte_exact": true,
+      "schema_exact": true,
+      "shape": [
+        1560,
+        9
+      ],
+      "reproduction_shape": [
+        1560,
+        9
+      ],
+      "non_numeric_exact": true,
+      "max_abs_numeric_difference": 0.0,
+      "numeric_mismatches_at_tolerance": 0
+    },
+    {
+      "file": "ood_checkpoint_inventory.json",
+      "classification": "primary_exact",
+      "current_sha256": "badcfedfab95629c22626442240d444d336b03d5ebac34a6eba903db8f29522e",
+      "reproduction_sha256": "badcfedfab95629c22626442240d444d336b03d5ebac34a6eba903db8f29522e",
+      "current_size_bytes": 3898,
+      "reproduction_size_bytes": 3898,
+      "byte_exact": true,
+      "schema_exact": null,
+      "shape": null,
+      "reproduction_shape": null,
+      "non_numeric_exact": null,
+      "max_abs_numeric_difference": null,
+      "numeric_mismatches_at_tolerance": null
+    },
+    {
+      "file": "ood_context_sanitization_audit.csv",
+      "classification": "primary_exact",
+      "current_sha256": "cbdb3b0a285d493279a58ee9515a590dc90763bf97ac80a073b63b5487f03274",
+      "reproduction_sha256": "cbdb3b0a285d493279a58ee9515a590dc90763bf97ac80a073b63b5487f03274",
+      "current_size_bytes": 1786,
+      "reproduction_size_bytes": 1786,
+      "byte_exact": true,
+      "schema_exact": true,
+      "shape": [
+        18,
+        6
+      ],
+      "reproduction_shape": [
+        18,
+        6
+      ],
+      "non_numeric_exact": true,
+      "max_abs_numeric_difference": 0.0,
+      "numeric_mismatches_at_tolerance": 0
+    },
+    {
+      "file": "ood_domain_metrics.csv",
+      "classification": "primary_exact",
+      "current_sha256": "0409b4072403847f0316652ad2c16f713c07a60abab0c837b03612c7a5beff77",
+      "reproduction_sha256": "0409b4072403847f0316652ad2c16f713c07a60abab0c837b03612c7a5beff77",
+      "current_size_bytes": 23215,
+      "reproduction_size_bytes": 23215,
+      "byte_exact": true,
+      "schema_exact": true,
+      "shape": [
+        96,
+        29
+      ],
+      "reproduction_shape": [
+        96,
+        29
+      ],
+      "non_numeric_exact": true,
+      "max_abs_numeric_difference": 0.0,
+      "numeric_mismatches_at_tolerance": 0
+    },
+    {
+      "file": "ood_domain_scaffold_bootstrap.csv",
+      "classification": "derived_numeric_tolerance",
+      "current_sha256": "006380a7a233b052312db1fac443f0f77b8f94ae5b1faa710a887afc0380e5b3",
+      "reproduction_sha256": "9496173518d75f9439befac83ad71dd28db70b0cd90e19a3fd6f373a8ae04b4f",
+      "current_size_bytes": 20567,
+      "reproduction_size_bytes": 20566,
+      "byte_exact": false,
+      "schema_exact": true,
+      "shape": [
+        96,
+        15
+      ],
+      "reproduction_shape": [
+        96,
+        15
+      ],
+      "non_numeric_exact": true,
+      "max_abs_numeric_difference": 6.661338147750939e-16,
+      "numeric_mismatches_at_tolerance": 0
+    },
+    {
+      "file": "ood_inner_split_audit.csv",
+      "classification": "primary_exact",
+      "current_sha256": "e70cfed6ae8bfe1550495d07478bad04a0ec7cef2333cbec8493234a4735be83",
+      "reproduction_sha256": "e70cfed6ae8bfe1550495d07478bad04a0ec7cef2333cbec8493234a4735be83",
+      "current_size_bytes": 15337,
+      "reproduction_size_bytes": 15337,
+      "byte_exact": true,
+      "schema_exact": true,
+      "shape": [
+        48,
+        15
+      ],
+      "reproduction_shape": [
+        48,
+        15
+      ],
+      "non_numeric_exact": true,
+      "max_abs_numeric_difference": 0.0,
+      "numeric_mismatches_at_tolerance": 0
+    },
+    {
+      "file": "ood_inner_tuning_metrics.csv",
+      "classification": "primary_exact",
+      "current_sha256": "83e23ac28c7ff6e9d96efc03b0146e0c3376eba684747a7e9bf782c4cb02c5de",
+      "reproduction_sha256": "83e23ac28c7ff6e9d96efc03b0146e0c3376eba684747a7e9bf782c4cb02c5de",
+      "current_size_bytes": 82421,
+      "reproduction_size_bytes": 82421,
+      "byte_exact": true,
+      "schema_exact": true,
+      "shape": [
+        432,
+        12
+      ],
+      "reproduction_shape": [
+        432,
+        12
+      ],
+      "non_numeric_exact": true,
+      "max_abs_numeric_difference": 0.0,
+      "numeric_mismatches_at_tolerance": 0
+    },
+    {
+      "file": "ood_paired_scaffold_bootstrap.csv",
+      "classification": "derived_numeric_tolerance",
+      "current_sha256": "b92c86a3d25cfedfbf554f4c1c2a5905337bb50ab0753b4145e786601f10d2aa",
+      "reproduction_sha256": "afcc9ea29ff27c1e565449fe419c9eca88b05e9c30c1404f18c32df47e30bd42",
+      "current_size_bytes": 13649,
+      "reproduction_size_bytes": 13650,
+      "byte_exact": false,
+      "schema_exact": true,
+      "shape": [
+        26,
+        51
+      ],
+      "reproduction_shape": [
+        26,
+        51
+      ],
+      "non_numeric_exact": true,
+      "max_abs_numeric_difference": 2.220446049250313e-16,
+      "numeric_mismatches_at_tolerance": 0
+    },
+    {
+      "file": "ood_predictions.csv",
+      "classification": "primary_exact",
+      "current_sha256": "0af39d248adff5cd17fc6d21cce1bfbd0c38051a740d14019d2e80b49c0cef5a",
+      "reproduction_sha256": "0af39d248adff5cd17fc6d21cce1bfbd0c38051a740d14019d2e80b49c0cef5a",
+      "current_size_bytes": 6997262,
+      "reproduction_size_bytes": 6997262,
+      "byte_exact": true,
+      "schema_exact": true,
+      "shape": [
+        22480,
+        22
+      ],
+      "reproduction_shape": [
+        22480,
+        22
+      ],
+      "non_numeric_exact": true,
+      "max_abs_numeric_difference": 0.0,
+      "numeric_mismatches_at_tolerance": 0
+    },
+    {
+      "file": "ood_run_manifest.json",
+      "classification": "operational_manifest",
+      "current_sha256": "34c56be73c362f85a662d5f411e0140fe8c6f27d242d8563542c0460d3009c17",
+      "reproduction_sha256": "121a61a6f04f2d1c43908f7fcbe328c1f85c99d9396e0cce5c33d33be973f221",
+      "current_size_bytes": 34402,
+      "reproduction_size_bytes": 34401,
+      "byte_exact": false,
+      "schema_exact": null,
+      "shape": null,
+      "reproduction_shape": null,
+      "non_numeric_exact": null,
+      "max_abs_numeric_difference": null,
+      "numeric_mismatches_at_tolerance": null
+    },
+    {
+      "file": "ood_selected_hyperparameters.csv",
+      "classification": "primary_exact",
+      "current_sha256": "f3c031f2b7a73a09edbbd0d5ba20828d2a396d619e50742e2c7f51aa81e3a36f",
+      "reproduction_sha256": "f3c031f2b7a73a09edbbd0d5ba20828d2a396d619e50742e2c7f51aa81e3a36f",
+      "current_size_bytes": 5233,
+      "reproduction_size_bytes": 5233,
+      "byte_exact": true,
+      "schema_exact": true,
+      "shape": [
+        84,
+        10
+      ],
+      "reproduction_shape": [
+        84,
+        10
+      ],
+      "non_numeric_exact": true,
+      "max_abs_numeric_difference": 0.0,
+      "numeric_mismatches_at_tolerance": 0
+    },
+    {
+      "file": "ood_split_audit.csv",
+      "classification": "primary_exact",
+      "current_sha256": "18c281f1ef66797288b741bd9522f91097182ee4a4366f9d60315c747238fd27",
+      "reproduction_sha256": "18c281f1ef66797288b741bd9522f91097182ee4a4366f9d60315c747238fd27",
+      "current_size_bytes": 1742,
+      "reproduction_size_bytes": 1742,
+      "byte_exact": true,
+      "schema_exact": true,
+      "shape": [
+        12,
+        22
+      ],
+      "reproduction_shape": [
+        12,
+        22
+      ],
+      "non_numeric_exact": true,
+      "max_abs_numeric_difference": 0.0,
+      "numeric_mismatches_at_tolerance": 0
+    }
+  ],
+  "manifest_comparison": {
+    "current_sha256": "34c56be73c362f85a662d5f411e0140fe8c6f27d242d8563542c0460d3009c17",
+    "reproduction_sha256": "121a61a6f04f2d1c43908f7fcbe328c1f85c99d9396e0cce5c33d33be973f221",
+    "current_size_bytes": 34402,
+    "reproduction_size_bytes": 34401,
+    "scientific_configuration_exact": true,
+    "allowed_difference_paths": [
+      "artifact_inventory.ood_aggregate_metrics.csv.sha256",
+      "artifact_inventory.ood_aggregate_metrics.csv.size_bytes",
+      "artifact_inventory.ood_domain_scaffold_bootstrap.csv.sha256",
+      "artifact_inventory.ood_domain_scaffold_bootstrap.csv.size_bytes",
+      "artifact_inventory.ood_paired_scaffold_bootstrap.csv.sha256",
+      "artifact_inventory.ood_paired_scaffold_bootstrap.csv.size_bytes",
+      "elapsed_seconds",
+      "resume_count",
+      "run_session_started_unix"
+    ],
+    "unexpected_difference_paths": [],
+    "operational_values": {
+      "elapsed_seconds": {
+        "current": 481.93452167510986,
+        "reproduction": 1344.631950378418
+      },
+      "resume_count": {
+        "current": 2,
+        "reproduction": 0
+      },
+      "run_session_started_unix": {
+        "current": 1785242547.5992537,
+        "reproduction": 1785243401.0591016
+      }
+    }
+  },
+  "conclusion": {
+    "predictions_byte_exact": true,
+    "split_audit_byte_exact": true,
+    "primary_exact_file_count": 9,
+    "derived_tables_within_tolerance": 3,
+    "numeric_mismatches_at_tolerance": 0,
+    "scientific_equivalence": true,
+    "operational_rewrite_explanation": "A completed-result resume rewrote elapsed_seconds, resume_count, and run_session_started_unix and reserialized three derived summary tables. Predictions, split assignments, tuning, selected hyperparameters, domain metrics, and the scientific configuration remained exact."
+  }
+}

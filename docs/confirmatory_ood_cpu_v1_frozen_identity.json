@@ -1,0 +1,28 @@
+{
+  "identity_version": "confirmatory_ood_cpu_v1.identity.v1",
+  "frozen_at": "2026-07-28T18:41:58+08:00",
+  "frozen_identity": {
+    "protocol_version": "confirmatory_ood_cpu_v1.0",
+    "file_sha256": {
+      "data": "e9494246bcbd198bc09d5b0d09721910c33f70f46ae859b76377a13775e3e4b2",
+      "ood_script": "ad7d95843007eb13596c5e8171d954d37fe1050fe9880eb1c7b64ffc91107757",
+      "ood_protocol": "2aedb38d43818f7edfba42c3ebb75e0e822def9c586aacdc299c4a39fc41822a",
+      "core_script": "ac1a57203b43d74023521b76cfaef28b958a803dbc6d9fb2866e7550f636995c",
+      "core_protocol": "7429b9a31f66b0ee7b1f75d977a1178615b8778bb3a507e06aa7f320eb11780b"
+    },
+    "formal_arguments": {
+      "protocols": [
+        "source_ood",
+        "target_ood"
+      ],
+      "inner_folds": 4,
+      "n_estimators": 600,
+      "n_jobs": 10,
+      "bootstrap_replicates": 10000,
+      "seed": 260531,
+      "max_groups": null,
+      "skip_label_shuffle": false,
+      "dry_run": false
+    }
+  }
+}

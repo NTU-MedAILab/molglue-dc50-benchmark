@@ -1,0 +1,8 @@
+analysis_identity,stage_order,stage,n,unit,note
+post_hoc_extension_float32_v4,1,all_parsed_records,3117,record_rows,all parsed source records
+post_hoc_extension_float32_v4,2,finite_numeric_endpoint_records,3091,record_rows,finite dc50_nM and pDC50; relation not restricted
+post_hoc_extension_float32_v4,3,equality_relation_records,1825,record_rows,recorded relation is equality
+post_hoc_extension_float32_v4,4,equality_unique_record_ids,1793,unique_record_ids,unique equality-record identifiers in parsed data
+post_hoc_extension_float32_v4,5,core_component_record_occurrences,1730,component_record_occurrences,pipe-delimited source-record components after aggregation
+post_hoc_extension_float32_v4,6,core_unique_component_record_ids,1727,unique_record_ids,unique parsed source records represented in core
+post_hoc_extension_float32_v4,7,final_aggregated_modeling_rows,1560,aggregated_model_rows,frozen strict-exact modeling observations

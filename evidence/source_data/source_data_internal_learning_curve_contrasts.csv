@@ -1,0 +1,13 @@
+contrast_id,model_id,metric,training_fraction_low,training_fraction_high,estimate,ci_low,ci_high,bootstrap_replicates
+full_minus_chemistry_spearman,paired_full_vs_chemistry,spearman,0.25,0.25,0.0460251006447047,0.0156241968274116,0.0822770789265632,10000
+chemistry_minus_full_rmse,paired_full_vs_chemistry,rmse_improvement,0.25,0.25,0.0216969530573047,0.013000039756298,0.0304523184895515,10000
+full_minus_chemistry_spearman,paired_full_vs_chemistry,spearman,0.5,0.5,0.0405082298742567,0.011380885541439,0.0793279871344566,10000
+chemistry_minus_full_rmse,paired_full_vs_chemistry,rmse_improvement,0.5,0.5,0.030778272920218,0.0183037832379341,0.0445920094847679,10000
+full_minus_chemistry_spearman,paired_full_vs_chemistry,spearman,0.75,0.75,0.0436614405436344,0.0163554862141609,0.0781365543603897,10000
+chemistry_minus_full_rmse,paired_full_vs_chemistry,rmse_improvement,0.75,0.75,0.0335912316289687,0.0205744937062263,0.0475476682186126,10000
+full_minus_chemistry_spearman,paired_full_vs_chemistry,spearman,1.0,1.0,0.047691706622776,0.0185894876718521,0.0848116517066955,10000
+chemistry_minus_full_rmse,paired_full_vs_chemistry,rmse_improvement,1.0,1.0,0.0347462443446299,0.020495268702507,0.0502732008695602,10000
+fraction_100_minus_75_spearman,chemistry_extra_trees,spearman,0.75,1.0,-0.0008078217827984,-0.01291419044137,0.0117160193622112,10000
+fraction_75_minus_100_rmse,chemistry_extra_trees,rmse_improvement,0.75,1.0,0.0019134650211468,-0.0068998634815216,0.0111435189843177,10000
+fraction_100_minus_75_spearman,full_context_extra_trees,spearman,0.75,1.0,0.0032224442963431,-0.0082028001546859,0.0151761263608932,10000
+fraction_75_minus_100_rmse,full_context_extra_trees,rmse_improvement,0.75,1.0,0.003068477736808,-0.0065021768212318,0.0130570635199546,10000

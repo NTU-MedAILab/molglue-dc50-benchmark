@@ -1,0 +1,17 @@
+analysis_identity,source_database,relation_class,n_records,group_total_records,fraction_within_group
+post_hoc_extension_float32_v4,MGDB,equality,517,1514,0.3414795244385733
+post_hoc_extension_float32_v4,MGDB,range,509,1514,0.3361955085865257
+post_hoc_extension_float32_v4,MGDB,one_sided,462,1514,0.3051519154557464
+post_hoc_extension_float32_v4,MGDB,missing_or_unparsed,26,1514,0.0171730515191545
+post_hoc_extension_float32_v4,MGTbind,equality,793,953,0.832109129066107
+post_hoc_extension_float32_v4,MGTbind,range,0,953,0.0
+post_hoc_extension_float32_v4,MGTbind,one_sided,160,953,0.1678908709338929
+post_hoc_extension_float32_v4,MGTbind,missing_or_unparsed,0,953,0.0
+post_hoc_extension_float32_v4,MolGlueDB,equality,396,445,0.8898876404494382
+post_hoc_extension_float32_v4,MolGlueDB,range,0,445,0.0
+post_hoc_extension_float32_v4,MolGlueDB,one_sided,49,445,0.1101123595505618
+post_hoc_extension_float32_v4,MolGlueDB,missing_or_unparsed,0,445,0.0
+post_hoc_extension_float32_v4,TPDdb,equality,119,205,0.5804878048780487
+post_hoc_extension_float32_v4,TPDdb,range,26,205,0.1268292682926829
+post_hoc_extension_float32_v4,TPDdb,one_sided,60,205,0.2926829268292683
+post_hoc_extension_float32_v4,TPDdb,missing_or_unparsed,0,205,0.0

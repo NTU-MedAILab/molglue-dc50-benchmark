@@ -1,0 +1,6 @@
+analysis_identity,relation_class,n_records,n_structure_derivable_records,n_missing_or_invalid_structure_records,n_unique_compounds,n_unique_scaffolds,n_records_with_compound_in_core,fraction_records_with_compound_in_core,n_unique_compounds_in_core,fraction_unique_compounds_in_core,n_records_with_scaffold_in_core,fraction_records_with_scaffold_in_core,n_unique_scaffolds_in_core,fraction_unique_scaffolds_in_core
+post_hoc_extension_float32_v4,equality,1825,1814,11,1165,671,1771,0.9704109589041096,1137,0.9759656652360515,1789,0.9802739726027396,667,0.9940387481371088
+post_hoc_extension_float32_v4,range,535,535,0,402,195,19,0.0355140186915887,19,0.0472636815920398,113,0.211214953271028,15,0.0769230769230769
+post_hoc_extension_float32_v4,one_sided,731,722,9,587,321,34,0.0465116279069767,24,0.0408858603066439,185,0.253077975376197,36,0.1121495327102803
+post_hoc_extension_float32_v4,missing_or_unparsed,26,13,13,9,8,8,0.3076923076923077,4,0.4444444444444444,10,0.3846153846153846,5,0.625
+post_hoc_extension_float32_v4,all,3117,3084,33,2064,1058,1832,0.5877446262431826,1137,0.5508720930232558,2097,0.6727622714148219,667,0.6304347826086957

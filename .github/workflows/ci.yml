@@ -1,0 +1,34 @@
+name: public-release-boundary
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  metadata-and-builder-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install builder test environment
+        run: python -m pip install -e './data_builder[test]'
+      - name: Reject row-level public data
+        run: python scripts/reproduce_release_v2.py verify-public
+      - name: Check exact public manifest
+        run: python scripts/build_release_manifest_v2.py --check
+      - name: Test deterministic builder logic
+        run: pytest -q data_builder/tests
+      - name: Compile portable entry points
+        run: >-
+          python -m py_compile
+          scripts/reproduce_release_v2.py
+          scripts/verify_cpu_results_v2.py
+          scripts/check_public_release_v2.py
+
+  # The formal refit is intentionally not run on hosted CI: it downloads
+  # third-party exports and takes hours. It is executed in a private clean
+  # workspace and checked against the frozen artifact ledgers.
+

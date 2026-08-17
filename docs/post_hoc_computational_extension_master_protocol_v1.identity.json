@@ -1,0 +1,17 @@
+{
+  "analysis_identity": "post_hoc_robustness_sensitivity_diagnostic_extension",
+  "frozen_at": "2026-07-29T18:43:40+08:00",
+  "protocol_file": "post_hoc_computational_extension_master_protocol_v1.md",
+  "protocol_sha256": "7dee28f45e3ddf8d6299622a8e494c50492b3b2614f39ce8b2fdd2a1be754ff8",
+  "modeling_input": {
+    "path": "data/processed/all_molglue_dc50_qc_train_test_standardized_context.csv",
+    "sha256": "e9494246bcbd198bc09d5b0d09721910c33f70f46ae859b76377a13775e3e4b2",
+    "n_rows": 1560
+  },
+  "descriptive_censoring_input": {
+    "path": "data/processed/all_molglue_dc50_parsed_records.csv",
+    "sha256": "ae1a16613b41ce84f92f539dbd31f16ada272ac5e401250acc7e97fd5e8bd970"
+  },
+  "restricted_collaborator_material_permitted": false,
+  "compute": "CPU_only"
+}

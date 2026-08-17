@@ -1,0 +1,95 @@
+{
+  "analysis_label": "post_hoc_graph_model_family_sensitivity",
+  "status": "PASS",
+  "expect_smoke": false,
+  "n_checks": 17,
+  "n_pass": 17,
+  "n_fail": 0,
+  "checks": [
+    {
+      "name": "manifest_identity",
+      "status": "PASS",
+      "detail": "complete, post-hoc graph identity; formal execution must use GPU"
+    },
+    {
+      "name": "identity_hashes",
+      "status": "PASS",
+      "detail": "data, runner and protocol hashes match current frozen files"
+    },
+    {
+      "name": "formal_configuration",
+      "status": "PASS",
+      "detail": "frozen graph architecture and training settings match"
+    },
+    {
+      "name": "artifact_inventory",
+      "status": "PASS",
+      "detail": "13/13 listed artifacts hash-checked"
+    },
+    {
+      "name": "prediction_models_and_finiteness",
+      "status": "PASS",
+      "detail": "exactly two paired graph models and finite values"
+    },
+    {
+      "name": "prediction_key_uniqueness",
+      "status": "PASS",
+      "detail": "one prediction per split/model/row key"
+    },
+    {
+      "name": "truth_stability",
+      "status": "PASS",
+      "detail": "each original row has one invariant endpoint"
+    },
+    {
+      "name": "internal_cross_fitting",
+      "status": "PASS",
+      "detail": "1,560 rows x 2 models x 5 OOF predictions"
+    },
+    {
+      "name": "ood_prediction_counts",
+      "status": "PASS",
+      "detail": "{('domain_plus_compound_cold', 'source_ood'): 3040, ('domain_plus_compound_cold', 'target_ood'): 2580, ('strict_domain_plus_scaffold_cold', 'source_ood'): 3040, ('strict_domain_plus_scaffold_cold', 'target_ood'): 2580}"
+    },
+    {
+      "name": "strict_leakage_audit",
+      "status": "PASS",
+      "detail": "strict splits have zero row, compound, scaffold and domain overlap"
+    },
+    {
+      "name": "training_audit",
+      "status": "PASS",
+      "detail": "paired seeds/models, fold-fitted context, and zero inner leakage"
+    },
+    {
+      "name": "graph_construction",
+      "status": "PASS",
+      "detail": "1,560 non-empty molecular graphs with the frozen 43 atom features"
+    },
+    {
+      "name": "repeat_average_recalculation",
+      "status": "PASS",
+      "detail": "repeat-averaged predictions independently reproduced"
+    },
+    {
+      "name": "internal_metric_recalculation",
+      "status": "PASS",
+      "detail": "internal Spearman and RMSE independently reproduced"
+    },
+    {
+      "name": "ood_domain_metric_recalculation",
+      "status": "PASS",
+      "detail": "all OOD domain metrics independently reproduced"
+    },
+    {
+      "name": "ood_aggregate_recalculation",
+      "status": "PASS",
+      "detail": "equal-domain macro metrics independently reproduced"
+    },
+    {
+      "name": "bootstrap_contract",
+      "status": "PASS",
+      "detail": "five regimes/axes x paired model/contrast records; n=10000"
+    }
+  ]
+}

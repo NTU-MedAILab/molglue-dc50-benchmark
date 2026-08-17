@@ -1,0 +1,13 @@
+name: molglue-dc50-release-v2-analysis
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10.19
+  - numpy=2.2.6
+  - pandas=2.3.3
+  - scipy=1.15.3
+  - scikit-learn=1.7.2
+  - rdkit=2025.09.4
+  - joblib=1.5.3
+  - matplotlib=3.10.8
+  - pillow=12.1.0

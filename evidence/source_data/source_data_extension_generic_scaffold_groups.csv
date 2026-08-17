@@ -1,0 +1,2 @@
+analysis_identity,n_rows,n_unique_smiles,n_bemis_murcko_groups,n_generic_murcko_groups,n_singleton_generic_groups,largest_generic_group_rows,median_generic_group_rows,generic_definition
+post_hoc_extension_float32_v4,1560,1137,667,376,183,76,2.0,RDKit MurckoScaffold.GetScaffoldForMol followed by MakeScaffoldGeneric; compound-specific acyclic fallback

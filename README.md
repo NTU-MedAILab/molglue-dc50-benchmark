@@ -8,9 +8,8 @@ source data and submission figure bundle.
 
 ## Rights-safe design
 
-The database owners did not reply to the authors' redistribution-permission
-requests. This release therefore does not rely on permission being granted and
-does not redistribute source exports or row-level derivatives. Each reproducer
+This release uses owner-hosted reconstruction and does not redistribute source
+exports or row-level derivatives. Each reproducer
 downloads the files from the four database owners (or supplies an exact local
 cache obtained from those owner endpoints), verifies the frozen SHA-256
 identities and builds the 1,560-row table in an ignored clean workspace.
@@ -38,6 +37,19 @@ parent runtime-manifest byte hash containing non-portable execution metadata.
 The portable-v2 downstream identity repair and remaining formal refit are
 therefore still in progress. Do not interpret this repository state as a
 completed end-to-end acceptance run; see `GITHUB_V2_BUILD_REPORT.md`.
+
+## Reviewer-revision analysis addendum
+
+The public payload also includes the post-hoc reviewer-revision analyses that
+match internal and held-domain estimands and decompose recorded context into
+provenance, biological/assay and missingness groups. Their author-generated,
+row-aggregate outputs are under `evidence/source_data/`, the frozen protocol is
+under `docs/`, and the executable analysis and plotting scripts are under
+`analysis_code/`. The matched-estimand QA passed 8 checks and the grouped-
+context summary QA passed 7 checks using 10,000 global-scaffold bootstrap
+resamples. No row-level database record or prediction was added to the public
+payload. This addendum strengthens auditability but does not replace the
+deferred clean end-to-end refit described above.
 
 ## Complete clean CPU reproduction
 

@@ -192,15 +192,15 @@ def figure1(source_dir: Path, output_dir: Path) -> None:
     repeat_summary = repeat_summary.iloc[0]
 
     fig = plt.figure(
-        figsize=(5.77, 6.2992 * JOURNAL_SCALE)
+        figsize=(5.77, 6.80 * JOURNAL_SCALE)
     )
     grid = fig.add_gridspec(
         3,
         2,
         width_ratios=[1.08, 1.0],
-        height_ratios=[0.82, 1.18, 0.9],
+        height_ratios=[1.08, 1.18, 0.9],
         wspace=0.34,
-        hspace=0.53,
+        hspace=0.52,
     )
     ax_a = fig.add_subplot(grid[0, :])
     ax_b = fig.add_subplot(grid[1, 0])
@@ -211,27 +211,28 @@ def figure1(source_dir: Path, output_dir: Path) -> None:
     panel_label(ax_a, "a")
     stages = [
         (
-            "Internal\nscaffold-disjoint",
+            "Internal validation\nscaffold-disjoint",
             "5 × 5 nested CV\nno train/test scaffold overlap\nClaim: internal ranking",
             "#DCE8F2",
         ),
         (
-            "Held-domain\n+ compound-cold",
-            "4 sources; 8 exact targets\nno compound or domain overlap\nClaim: fixed-domain transfer",
+            "Held-domain transfer\ncompound-cold",
+            "4 sources or 8 exact targets\nno test-compound overlap\nClaim: fixed-domain transfer",
             "#C8D8E8",
         ),
         (
-            "Strict domain\n+ scaffold-cold",
+            "Strict extrapolation\nscaffold-cold",
             "same 12 test domains\nall test scaffolds purged\nClaim: post-hoc extrapolation",
             "#B4C8DD",
         ),
     ]
-    x_positions = [0.04, 0.365, 0.69]
+    x_positions = [0.025, 0.3525, 0.68]
+    box_width = 0.285
     for (title, subtitle, face), x in zip(stages, x_positions):
         box = FancyBboxPatch(
-            (x, 0.23),
-            0.265,
-            0.55,
+            (x, 0.19),
+            box_width,
+            0.65,
             boxstyle="round,pad=0.012,rounding_size=0.02",
             transform=ax_a.transAxes,
             facecolor=face,
@@ -240,31 +241,31 @@ def figure1(source_dir: Path, output_dir: Path) -> None:
         )
         ax_a.add_patch(box)
         ax_a.text(
-            x + 0.1325,
-            0.675,
+            x + box_width / 2,
+            0.70,
             title,
             transform=ax_a.transAxes,
             ha="center",
             va="center",
             fontsize=6.8,
             fontweight="bold",
-            linespacing=1.0,
+            linespacing=1.12,
         )
         ax_a.text(
-            x + 0.1325,
-            0.41,
+            x + box_width / 2,
+            0.405,
             subtitle,
             transform=ax_a.transAxes,
             ha="center",
             va="center",
             fontsize=5.8,
-            linespacing=1.2,
+            linespacing=1.32,
         )
     for left, right in zip(x_positions[:-1], x_positions[1:]):
         ax_a.add_patch(
             FancyArrowPatch(
-                (left + 0.267, 0.505),
-                (right - 0.008, 0.505),
+                (left + box_width + 0.002, 0.515),
+                (right - 0.006, 0.515),
                 transform=ax_a.transAxes,
                 arrowstyle="-|>",
                 mutation_scale=10,

@@ -101,9 +101,9 @@
     "evidence/source_data/source_data_extension_provenance_v4.json": "b67e1f3581d536bca09650a3afeafa09a6dfba2c2f969809041a539528039bc5",
     "evidence/source_data/computational_extension_results_v1.json": "188f23ace005d3121ee2f8f6adc7ff964fa16c2d360b67ca3f79b2ad07c4b302",
     "evidence/source_data/computational_extension_crosscheck_v1.json": "4a549e2290c55925b62fcdca787facc079d588584aa0f5b99276bcfaaf8c4b41",
-    "figures/figure_bundle_manifest.csv": "7dde399e16512768de8d6088603aa3d039ea1268580de6b152017360eb765d44",
-    "figures/computational_extension_figure_provenance.json": "d183b29eef8dd4d7cc56c7702b2b7f97ea2ec1cc1eb5d74654c8e6f80628f3be",
-    "figures/computational_extension_figure_qa_summary.json": "fe996b3e1a065a09f9f39bf10e2957d8ed152d16c24eb02b422cc3871ddeeb14"
+    "figures/figure_bundle_manifest.csv": "f26d45e156eb0de73a1cbe740c76b12853d569e8e3fa8888bd00b7adee6296e8",
+    "figures/computational_extension_figure_provenance.json": "9fb99eec933fc9604e67c9432f7f4a32b70c020dec80f2ce45038aa29e050955",
+    "figures/computational_extension_figure_qa_summary.json": "4b1a06924a8aaedf3556240f02f7eb579c35421bef560a456d66d388c2f538e9"
   },
   "post_hoc_extension_identity": {
     "analysis_label": "post_hoc_computational_extension_float32_v4",
@@ -129,10 +129,10 @@
       "source_data_generation_id": "2dfa3b400e36d870b4b2f7b6860c6ffd38e07ff16aaf756aab930b5ca0844f6c"
     },
     "figure_provenance": {
-      "figure_bundle_manifest_sha256": "7dde399e16512768de8d6088603aa3d039ea1268580de6b152017360eb765d44",
-      "figure_provenance_sha256": "d183b29eef8dd4d7cc56c7702b2b7f97ea2ec1cc1eb5d74654c8e6f80628f3be",
-      "figure_qa_sha256": "fe996b3e1a065a09f9f39bf10e2957d8ed152d16c24eb02b422cc3871ddeeb14",
-      "figure_generation_id": "1b94dc818a575d1f0170c9d130f3b8d4f0f3683a2f37956bb53a4163a0f6ff57",
+      "figure_bundle_manifest_sha256": "f26d45e156eb0de73a1cbe740c76b12853d569e8e3fa8888bd00b7adee6296e8",
+      "figure_provenance_sha256": "9fb99eec933fc9604e67c9432f7f4a32b70c020dec80f2ce45038aa29e050955",
+      "figure_qa_sha256": "4b1a06924a8aaedf3556240f02f7eb579c35421bef560a456d66d388c2f538e9",
+      "figure_generation_id": "69a70c8134d8827c5d9ae3ca75a5c13754f7d166470af1fb79e4d843e3ee7d2a",
       "figure_contract_filename": "computational_extension_figure_contract_v1.md",
       "figure_contract_sha256": "98140192a53c0fcad1a83cb736fbe8c9b22cad01fb7597223304dd2a78e0d748",
       "figure_qa_script_sha256": "eff8189674424e00aa3e9532ca4f082b09c8724851eac03b74458622400e955c",

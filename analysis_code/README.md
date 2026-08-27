@@ -16,6 +16,13 @@ runner and its read-only QA implementation. That sensitivity uses a
 CUDA-capable GPU for its formal execution identity and remains separate from
 the mixed-lineage ExtraTrees extension.
 
+The reviewer-revision addendum includes matched-estimand and grouped-context
+ExtraTrees runners, paired global-scaffold bootstrap summaries and editable
+figure-generation scripts. Source provenance is deliberately not assigned a
+held-source estimate, and the held-target variants remove unavailable target
+fields as documented in `../docs/post_hoc_reviewer_revision_v1_protocol.md`.
+The public evidence files contain aggregate metrics only.
+
 They are not the release entry point. Several downstream scripts intentionally
 retain historical fail-closed checks against parent result manifests. GitHub
 v2 supplies the exact protocol and builder needed by those scripts and runs

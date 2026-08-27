@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "axis": "source",
+      "check": "fixed_domain_identity",
+      "detail": "MGTbind|MGDB|MolGlueDB|TPDdb",
+      "status": "PASS"
+    },
+    {
+      "axis": "source",
+      "check": "common_row_universe",
+      "detail": "n_rows=1520",
+      "status": "PASS"
+    },
+    {
+      "axis": "source",
+      "check": "global_scaffold_resampling",
+      "detail": "n_scaffolds=667; n_bootstrap=10000",
+      "status": "PASS"
+    },
+    {
+      "axis": "target",
+      "check": "fixed_domain_identity",
+      "detail": "VAV1|CSNK1A1|GSPT1|WIZ|CDK2|CCNK+CDK12|IKZF2|IKZF1",
+      "status": "PASS"
+    },
+    {
+      "axis": "target",
+      "check": "common_row_universe",
+      "detail": "n_rows=1290",
+      "status": "PASS"
+    },
+    {
+      "axis": "target",
+      "check": "global_scaffold_resampling",
+      "detail": "n_scaffolds=601; n_bootstrap=10000",
+      "status": "PASS"
+    },
+    {
+      "axis": "source",
+      "check": "lodo_reconstructs_paired_regime_change",
+      "detail": "observed=-0.1231373381719299; reconstructed=-0.12313733817192984",
+      "status": "PASS"
+    },
+    {
+      "axis": "target",
+      "check": "lodo_reconstructs_paired_regime_change",
+      "detail": "observed=-0.10200489841244616; reconstructed=-0.10200489841244613",
+      "status": "PASS"
+    }
+  ],
+  "n_checks": 8,
+  "n_failures": 0,
+  "status": "PASS"
+}

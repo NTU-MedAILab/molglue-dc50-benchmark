@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "n_checks": 7,
+  "checks": [
+    {
+      "check": "formal_fit_qa_pass",
+      "status": "PASS"
+    },
+    {
+      "check": "internal_repeat_average_complete",
+      "status": "PASS"
+    },
+    {
+      "check": "four_axis_regime_estimands",
+      "status": "PASS"
+    },
+    {
+      "check": "bootstrap_complete",
+      "status": "PASS"
+    },
+    {
+      "check": "source_provenance_not_claimed_portable",
+      "status": "PASS"
+    },
+    {
+      "check": "expected_scaffold_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "all_effects_finite",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "contract_version": "publication_figures_v4.0",
-  "figure_generation_id": "1b94dc818a575d1f0170c9d130f3b8d4f0f3683a2f37956bb53a4163a0f6ff57",
+  "figure_generation_id": "69a70c8134d8827c5d9ae3ca75a5c13754f7d166470af1fb79e4d843e3ee7d2a",
   "figure_contract_filename": "computational_extension_figure_contract_v1.md",
   "figure_contract_sha256": "98140192a53c0fcad1a83cb736fbe8c9b22cad01fb7597223304dd2a78e0d748",
   "figure_qa_script_sha256": "eff8189674424e00aa3e9532ca4f082b09c8724851eac03b74458622400e955c",
@@ -246,11 +246,11 @@
     "fig1_validation_gradient": {
       "png_pixels": [
         1833,
-        1375
+        1472
       ],
       "tiff_pixels": [
         3666,
-        2753
+        2947
       ],
       "source_regeneration": "blocked_by_excluded_row_level_repeat_tables"
     },

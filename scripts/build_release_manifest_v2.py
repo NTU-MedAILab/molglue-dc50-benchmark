@@ -156,6 +156,14 @@ def evidence_identity_for(relative: str) -> str:
         "source_data_strict_ood.csv": "post_hoc_sensitivity",
         "source_data_lodo.csv": "post_hoc_exploratory",
         "source_data_calibration.csv": "post_hoc_exploratory",
+        "source_data_matched_estimand_models.csv": "post_hoc_matched_estimand",
+        "source_data_matched_estimand_contrasts.csv": "post_hoc_matched_estimand",
+        "source_data_matched_domain_contrasts.csv": "post_hoc_matched_estimand_domain_descriptive",
+        "source_data_matched_regime_change_lodo.csv": "post_hoc_matched_estimand_fixed_domain_influence",
+        "source_data_grouped_context_contrasts.csv": "post_hoc_grouped_context_ablation",
+        "source_data_grouped_context_domain_contrasts.csv": "post_hoc_grouped_context_fixed_domain_descriptive",
+        "matched_estimand_qa_summary.json": "post_hoc_matched_estimand_QA",
+        "grouped_context_qa_summary.json": "post_hoc_grouped_context_QA",
         "source_data_hgb_model_family_sensitivity.csv": (
             "post_hoc_model_family_sensitivity"
         ),

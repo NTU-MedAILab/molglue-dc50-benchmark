@@ -27,49 +27,49 @@
     },
     {
       "check_id": "fig1_validation_gradient:exists:.svg",
-      "evidence": 53022,
+      "evidence": 53273,
       "message": "fig1_validation_gradient.svg exists, is non-symlinked and is non-empty",
       "status": "PASS"
     },
     {
       "check_id": "fig1_validation_gradient:exists:.pdf",
-      "evidence": 30006,
+      "evidence": 30441,
       "message": "fig1_validation_gradient.pdf exists, is non-symlinked and is non-empty",
       "status": "PASS"
     },
     {
       "check_id": "fig1_validation_gradient:exists:.tiff",
-      "evidence": 837152,
+      "evidence": 897220,
       "message": "fig1_validation_gradient.tiff exists, is non-symlinked and is non-empty",
       "status": "PASS"
     },
     {
       "check_id": "fig1_validation_gradient:exists:.png",
-      "evidence": 289393,
+      "evidence": 297912,
       "message": "fig1_validation_gradient.png exists, is non-symlinked and is non-empty",
       "status": "PASS"
     },
     {
       "check_id": "fig1_validation_gradient:size:.svg",
-      "evidence": 53022,
+      "evidence": 53273,
       "message": "fig1_validation_gradient.svg is below 10 MB",
       "status": "PASS"
     },
     {
       "check_id": "fig1_validation_gradient:size:.pdf",
-      "evidence": 30006,
+      "evidence": 30441,
       "message": "fig1_validation_gradient.pdf is below 10 MB",
       "status": "PASS"
     },
     {
       "check_id": "fig1_validation_gradient:size:.tiff",
-      "evidence": 837152,
+      "evidence": 897220,
       "message": "fig1_validation_gradient.tiff is below 10 MB",
       "status": "PASS"
     },
     {
       "check_id": "fig1_validation_gradient:size:.png",
-      "evidence": 289393,
+      "evidence": 297912,
       "message": "fig1_validation_gradient.png is below 10 MB",
       "status": "PASS"
     },
@@ -81,7 +81,7 @@
     },
     {
       "check_id": "fig1_validation_gradient:svg-height",
-      "evidence": 116.54596642499999,
+      "evidence": 124.7751628472222,
       "message": "Frozen SVG height is within the journal page budget",
       "status": "PASS"
     },
@@ -99,7 +99,7 @@
     },
     {
       "check_id": "fig1_validation_gradient:pdf-height",
-      "evidence": 116.5479,
+      "evidence": 124.77714722222221,
       "message": "PDF physical height matches the SVG/figure contract",
       "status": "PASS"
     },
@@ -113,7 +113,7 @@
       "check_id": "fig1_validation_gradient:.tiff:pixels",
       "evidence": [
         3666,
-        2753
+        2947
       ],
       "message": ".tiff pixel dimensions match the physical canvas",
       "status": "PASS"
@@ -143,7 +143,7 @@
       "check_id": "fig1_validation_gradient:.png:pixels",
       "evidence": [
         1833,
-        1375
+        1472
       ],
       "message": ".png pixel dimensions match the physical canvas",
       "status": "PASS"
@@ -561,19 +561,19 @@
     },
     {
       "check_id": "fig5_robustness_map:exists:.pdf",
-      "evidence": 42220,
+      "evidence": 37389,
       "message": "fig5_robustness_map.pdf exists, is non-symlinked and is non-empty",
       "status": "PASS"
     },
     {
       "check_id": "fig5_robustness_map:exists:.tiff",
-      "evidence": 923912,
+      "evidence": 924880,
       "message": "fig5_robustness_map.tiff exists, is non-symlinked and is non-empty",
       "status": "PASS"
     },
     {
       "check_id": "fig5_robustness_map:exists:.png",
-      "evidence": 253488,
+      "evidence": 253628,
       "message": "fig5_robustness_map.png exists, is non-symlinked and is non-empty",
       "status": "PASS"
     },
@@ -585,19 +585,19 @@
     },
     {
       "check_id": "fig5_robustness_map:size:.pdf",
-      "evidence": 42220,
+      "evidence": 37389,
       "message": "fig5_robustness_map.pdf is below 10 MB",
       "status": "PASS"
     },
     {
       "check_id": "fig5_robustness_map:size:.tiff",
-      "evidence": 923912,
+      "evidence": 924880,
       "message": "fig5_robustness_map.tiff is below 10 MB",
       "status": "PASS"
     },
     {
       "check_id": "fig5_robustness_map:size:.png",
-      "evidence": 253488,
+      "evidence": 253628,
       "message": "fig5_robustness_map.png is below 10 MB",
       "status": "PASS"
     },
@@ -734,19 +734,19 @@
     },
     {
       "check_id": "supp_fig_s1_applicability_profile:exists:.pdf",
-      "evidence": 43238,
+      "evidence": 38558,
       "message": "supp_fig_s1_applicability_profile.pdf exists, is non-symlinked and is non-empty",
       "status": "PASS"
     },
     {
       "check_id": "supp_fig_s1_applicability_profile:exists:.tiff",
-      "evidence": 1130292,
+      "evidence": 1131936,
       "message": "supp_fig_s1_applicability_profile.tiff exists, is non-symlinked and is non-empty",
       "status": "PASS"
     },
     {
       "check_id": "supp_fig_s1_applicability_profile:exists:.png",
-      "evidence": 342774,
+      "evidence": 341676,
       "message": "supp_fig_s1_applicability_profile.png exists, is non-symlinked and is non-empty",
       "status": "PASS"
     },
@@ -758,19 +758,19 @@
     },
     {
       "check_id": "supp_fig_s1_applicability_profile:size:.pdf",
-      "evidence": 43238,
+      "evidence": 38558,
       "message": "supp_fig_s1_applicability_profile.pdf is below 10 MB",
       "status": "PASS"
     },
     {
       "check_id": "supp_fig_s1_applicability_profile:size:.tiff",
-      "evidence": 1130292,
+      "evidence": 1131936,
       "message": "supp_fig_s1_applicability_profile.tiff is below 10 MB",
       "status": "PASS"
     },
     {
       "check_id": "supp_fig_s1_applicability_profile:size:.png",
-      "evidence": 342774,
+      "evidence": 341676,
       "message": "supp_fig_s1_applicability_profile.png is below 10 MB",
       "status": "PASS"
     },
@@ -908,19 +908,19 @@
     },
     {
       "check_id": "supp_fig_s2_permutation_controls:exists:.pdf",
-      "evidence": 44224,
+      "evidence": 40295,
       "message": "supp_fig_s2_permutation_controls.pdf exists, is non-symlinked and is non-empty",
       "status": "PASS"
     },
     {
       "check_id": "supp_fig_s2_permutation_controls:exists:.tiff",
-      "evidence": 1255550,
+      "evidence": 1256328,
       "message": "supp_fig_s2_permutation_controls.tiff exists, is non-symlinked and is non-empty",
       "status": "PASS"
     },
     {
       "check_id": "supp_fig_s2_permutation_controls:exists:.png",
-      "evidence": 220469,
+      "evidence": 221242,
       "message": "supp_fig_s2_permutation_controls.png exists, is non-symlinked and is non-empty",
       "status": "PASS"
     },
@@ -932,19 +932,19 @@
     },
     {
       "check_id": "supp_fig_s2_permutation_controls:size:.pdf",
-      "evidence": 44224,
+      "evidence": 40295,
       "message": "supp_fig_s2_permutation_controls.pdf is below 10 MB",
       "status": "PASS"
     },
     {
       "check_id": "supp_fig_s2_permutation_controls:size:.tiff",
-      "evidence": 1255550,
+      "evidence": 1256328,
       "message": "supp_fig_s2_permutation_controls.tiff is below 10 MB",
       "status": "PASS"
     },
     {
       "check_id": "supp_fig_s2_permutation_controls:size:.png",
-      "evidence": 220469,
+      "evidence": 221242,
       "message": "supp_fig_s2_permutation_controls.png is below 10 MB",
       "status": "PASS"
     },
@@ -1075,19 +1075,19 @@
     },
     {
       "check_id": "supp_fig_s3_endpoint_selection_boundary:exists:.pdf",
-      "evidence": 55443,
+      "evidence": 50270,
       "message": "supp_fig_s3_endpoint_selection_boundary.pdf exists, is non-symlinked and is non-empty",
       "status": "PASS"
     },
     {
       "check_id": "supp_fig_s3_endpoint_selection_boundary:exists:.tiff",
-      "evidence": 1078594,
+      "evidence": 1079138,
       "message": "supp_fig_s3_endpoint_selection_boundary.tiff exists, is non-symlinked and is non-empty",
       "status": "PASS"
     },
     {
       "check_id": "supp_fig_s3_endpoint_selection_boundary:exists:.png",
-      "evidence": 303944,
+      "evidence": 303456,
       "message": "supp_fig_s3_endpoint_selection_boundary.png exists, is non-symlinked and is non-empty",
       "status": "PASS"
     },
@@ -1099,19 +1099,19 @@
     },
     {
       "check_id": "supp_fig_s3_endpoint_selection_boundary:size:.pdf",
-      "evidence": 55443,
+      "evidence": 50270,
       "message": "supp_fig_s3_endpoint_selection_boundary.pdf is below 10 MB",
       "status": "PASS"
     },
     {
       "check_id": "supp_fig_s3_endpoint_selection_boundary:size:.tiff",
-      "evidence": 1078594,
+      "evidence": 1079138,
       "message": "supp_fig_s3_endpoint_selection_boundary.tiff is below 10 MB",
       "status": "PASS"
     },
     {
       "check_id": "supp_fig_s3_endpoint_selection_boundary:size:.png",
-      "evidence": 303944,
+      "evidence": 303456,
       "message": "supp_fig_s3_endpoint_selection_boundary.png is below 10 MB",
       "status": "PASS"
     },
@@ -1484,11 +1484,11 @@
     "WARN": 0
   },
   "expected_crosscheck_check_ids_sha256": "e73095d72ec6e070c7ef74c09307ebd73242af3175f0792f9303911ac4770719",
-  "figure_bundle_manifest_sha256": "7dde399e16512768de8d6088603aa3d039ea1268580de6b152017360eb765d44",
+  "figure_bundle_manifest_sha256": "f26d45e156eb0de73a1cbe740c76b12853d569e8e3fa8888bd00b7adee6296e8",
   "figure_contract_filename": "computational_extension_figure_contract_v1.md",
   "figure_contract_sha256": "98140192a53c0fcad1a83cb736fbe8c9b22cad01fb7597223304dd2a78e0d748",
-  "figure_generation_id": "1b94dc818a575d1f0170c9d130f3b8d4f0f3683a2f37956bb53a4163a0f6ff57",
-  "figure_provenance_sha256": "d183b29eef8dd4d7cc56c7702b2b7f97ea2ec1cc1eb5d74654c8e6f80628f3be",
+  "figure_generation_id": "69a70c8134d8827c5d9ae3ca75a5c13754f7d166470af1fb79e4d843e3ee7d2a",
+  "figure_provenance_sha256": "9fb99eec933fc9604e67c9432f7f4a32b70c020dec80f2ce45038aa29e050955",
   "figure_qa_required_check_count": 224,
   "figure_qa_required_check_ids": [
     "existing-figures:complete",

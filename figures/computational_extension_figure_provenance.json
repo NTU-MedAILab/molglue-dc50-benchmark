@@ -3,7 +3,7 @@
   "backend": "Python/matplotlib",
   "expected_crosscheck_check_ids_sha256": "e73095d72ec6e070c7ef74c09307ebd73242af3175f0792f9303911ac4770719",
   "figure_bundle_manifest_filename": "figure_bundle_manifest.csv",
-  "figure_bundle_manifest_sha256": "7dde399e16512768de8d6088603aa3d039ea1268580de6b152017360eb765d44",
+  "figure_bundle_manifest_sha256": "f26d45e156eb0de73a1cbe740c76b12853d569e8e3fa8888bd00b7adee6296e8",
   "figure_contract_filename": "computational_extension_figure_contract_v1.md",
   "figure_contract_sha256": "98140192a53c0fcad1a83cb736fbe8c9b22cad01fb7597223304dd2a78e0d748",
   "figure_directory_name": "publication_figures_v4",
@@ -14,7 +14,7 @@
     ".tiff",
     ".png"
   ],
-  "figure_generation_id": "1b94dc818a575d1f0170c9d130f3b8d4f0f3683a2f37956bb53a4163a0f6ff57",
+  "figure_generation_id": "69a70c8134d8827c5d9ae3ca75a5c13754f7d166470af1fb79e4d843e3ee7d2a",
   "figure_provenance_version": "computational_extension_figure_float32_v4.0",
   "figure_qa_filename": "computational_extension_figure_qa_summary.json",
   "figure_qa_must_bind_this_record_sha256": true,

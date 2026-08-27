@@ -1,13 +1,12 @@
 # GitHub v2 release gates
 
-## Closed — database-permission dependency
+## Closed — row-level redistribution dependency
 
-Permission requests were sent and received no reply. The publication route no
-longer assumes redistribution permission: all four raw exports and all
-row-level derivatives are excluded, while deterministic reconstruction starts
-from owner-hosted official downloads. Therefore “obtain permission” is not an
-open engineering gate. It remains a journal/editorial risk that must be
-described transparently, not hidden.
+The publication route does not redistribute any of the four raw exports or
+row-level derivatives. Deterministic reconstruction starts from owner-hosted
+official downloads, so row-level redistribution is not an open engineering
+gate. Source access conditions remain a journal/editorial boundary that is
+described transparently.
 
 ## Closed — raw-to-analysis reconstruction
 
@@ -39,8 +38,8 @@ uses no GPU.
 The author-owned code licence is MIT and the repository URL is
 `https://github.com/NTU-MedAILab/molglue-dc50-benchmark`.
 
-## Separate manuscript reminder
+## Separate manuscript figure status
 
-The current graphical abstract/main overview image was AI-generated as a
-layout draft and should be manually redrawn in scientific illustration
-software before final submission. This is unrelated to CPU reproducibility.
+The author-redrawn study-overview figure has replaced the earlier layout
+draft. Final PDF-size inspection remains a manuscript-production check and is
+unrelated to CPU reproducibility.

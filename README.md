@@ -1,7 +1,8 @@
-# Molecular-glue DC50 benchmark — GitHub v2
+# MolGlueBench — GitHub v2
 
 This package is designed to reconstruct and verify the complete **CPU**
-analysis chain for the associated retrospective molecular-glue DC50 benchmark. It combines the
+analysis chain for **MolGlueBench**, the associated retrospective,
+domain-aware molecular-glue DC50 benchmark. It combines the
 four-source deterministic data builder, frozen analysis implementations,
 formal protocols, independent exact-output verifier, aggregate manuscript
 source data and submission figure bundle.
